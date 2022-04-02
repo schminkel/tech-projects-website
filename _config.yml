@@ -1,3 +1,5 @@
+encoding: UTF-8
+
 # Jekyll configuration
 markdown: kramdown
 highlighter: rouge
@@ -81,8 +83,8 @@ relative_source: ../jasper2/
 #destination: ../jasper2-pages/
 destination: jasper2-pages/
 
-production_url:  https://jekyllt.github.io/jasper2/
-source_url:  https://github.com/jekyllt/jasper2/
+production_url:  https://schminkel.github.io/tech-projects-website/
+source_url:  https://github.com/schminkel/tech-projects-website
 
 exclude:
   - assets/css
