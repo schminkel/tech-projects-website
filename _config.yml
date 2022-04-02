@@ -14,11 +14,11 @@ baseurl: '/'
 title: Ghost
 description: Technic Projects Blog
 description_sub: Projects and Ideas by Thorsten Schminkel
-cover: /assets/images/blog-cover.jpg
-logo: /assets/images/blog-icon.png
-logo_dark: /assets/images/favicon.png
-favicon: /assets/images/favicon.png
-CNAME: tech-projects.blog
+cover: assets/images/blog-cover.jpg
+logo: assets/images/blog-icon.png
+logo_dark: assets/images/favicon.png
+favicon: assets/images/favicon.png
+CNAME: #add cname for website to be created
 
 # Social info
 navigation: True # show the navbar links
@@ -37,8 +37,8 @@ google_analytics: UA-69281367-1 # replace with your GA tracking identifier
 
 # Permalinks
 permalink: /:title
-#permalink: /author/:author
-#permalink: /tag/:tag
+# permalink: /author/:author
+# permalink: /tag/:tag
 
 # Authors' info in `_data/authors.yml`
 # Tags' info in `_data/tags_info.yml`
@@ -82,7 +82,7 @@ production_url:  https://jekyllt.github.io/jasper2/
 source_url:  https://github.com/jekyllt/jasper2/
 
 exclude:
-  - /assets/css
+  - assets/css
   - node_modules
   - vendor
   - .travis.yml
