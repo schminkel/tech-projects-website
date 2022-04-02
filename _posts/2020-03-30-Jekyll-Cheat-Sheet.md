@@ -5,7 +5,7 @@ cover:  assets/images/markdown-syntax.jpg
 navigation: True
 title: Jekyll Markdown Cheat Sheet
 date: 2022-03-30 06:00:00
-tags: [Getting started, Getting done, Electronics]
+tags: [Getting started, Electronics]
 class: post-template
 subclass: 'post'
 author: ghost
