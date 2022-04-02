@@ -10,6 +10,8 @@ words_per_minute: 200
 #baseurl: '/tech-projects-website'
 baseurl: '/'
 
+basepath: '/'
+
 # Website info
 title: Ghost
 description: Technic Projects Blog
