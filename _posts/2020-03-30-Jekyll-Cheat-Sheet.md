@@ -1,7 +1,7 @@
 ---
 layout: post
 current: post
-cover:  /assets/images/markdown-syntax.jpg
+cover:  assets/images/markdown-syntax.jpg
 navigation: True
 title: Jekyll Markdown Cheat Sheet
 date: 2022-03-30 06:00:00
