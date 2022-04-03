@@ -21,8 +21,10 @@ description: Technic Projects Blog
 description_sub: Projects and Ideas by Thorsten Schminkel
 cover: assets/images/blog-cover.jpg
 logo: assets/images/blog-icon.png
-logo_dark: assets/images/favicon.png
-favicon: assets/images/favicon.png
+
+logo_dark: assets/images/favicon # folder
+favicon: assets/images/favicon # folder
+
 CNAME: #add cname for website to be created
 
 # Social info
