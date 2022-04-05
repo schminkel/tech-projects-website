@@ -1019,6 +1019,7 @@ body {
 .post-full-content ul {
   min-width: 100%;
   margin: 0 0 0 0;
+  padding-bottom: 0.5em;
 }
 .post-full-content li {
   word-break: break-word;
