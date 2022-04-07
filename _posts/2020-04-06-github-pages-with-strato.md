@@ -20,13 +20,15 @@ When I was trying to configure the custom domain for my blog on GitHub I got stu
 Go to the main page of your "GitHub Repository Project" --> "Settings" --> "Pages" and enter your custom domain (e.g. tech-projects.blog).
 
 ![Configuration on GitHub 1](/assets/images/github-pages-with-strato/2022-04-06_19-25-45.png)
-*Settings Button on GitHub*
+<figcaption>Settings Button on GitHub</figcaption>
 
 ![Configuration on GitHub 2](/assets/images/github-pages-with-strato/2022-04-06_19-36-07.png)
-*GitHub Pages Configuration on GitHub*
+<figcaption>GitHub Pages Configuration on GitHub</figcaption>
 
+---
 > BUT, this will not work without the correct configuration on the domain provider side!
 
+---
 
 ## Configuration on Strato
 
@@ -52,10 +54,13 @@ Go to the main page of your "GitHub Repository Project" --> "Settings" --> "Page
 - Configure the A-Record and add an IP for the subdomain as for the domain.
 - Configure the AAAA-Record and add an IP for the subdomain as for the domain.
 
+---
 > Adding the "www." subdomain with an A-Record IP will do the trick here!
 
+---
+
 ![Domainverwaltung Strato](/assets/images/github-pages-with-strato/2022-04-06_20-42-15.png)
-*Domainverwaltung Strato*
+<figcaption>Domainverwaltung Strato</figcaption>
 
 
 ## Documentation on GitHub

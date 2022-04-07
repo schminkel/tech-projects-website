@@ -69,22 +69,21 @@ with a line break.
 ---
 ### Bold
 
-abcd **bold text** efgh  
-abcd __bold also__ efgh
+Lorem **ipsum dolor** sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et __dolore magna__ aliqua.
+
 ```markdown
-abcd **bold text** efgh  
-abcd __bold also__ efgh
+Lorem **ipsum dolor** sit amet, consectetur adipiscing elit, 
+sed do eiusmod tempor incididunt ut labore et __dolore magna__ aliqua.
 ```
 
 ---
 ### Italic
 
-*italic text*  
-_italic also_
+Lorem *ipsum dolor* sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et _dolore magna_ aliqua.
 
 ```markdown
-*italic text*  
-_italic also_
+Lorem *ipsum dolor* sit amet, consectetur adipiscing elit, 
+sed do eiusmod tempor incididunt ut labore et _dolore magna_ aliqua.
 ```
 
 ---
@@ -111,6 +110,18 @@ abcd <mark>Highlight</mark> efgh
 ```markdown
 > Blockquote
 >> Nested Blockquote
+```
+
+---
+> Blockquote with horizontal lines
+
+---
+
+```markdown
+---
+> Blockquote with horizontal lines
+
+---
 ```
 
 ---
@@ -157,7 +168,7 @@ This is an inline `code`.
 ```
 
 ---
-### Horizontal rule
+### Horizontal line
 
 Here's some text.
 
@@ -186,9 +197,11 @@ Here's more text.
 ### Image
 
 ![alt text](/assets/images/ghost.png)
+<figcaption>Caption goes here</figcaption>
 
 ```markdown
 ![alt text](/assets/images/ghost.png)
+<figcaption>Caption goes here</figcaption>
 ```
 
 ## Extended syntax

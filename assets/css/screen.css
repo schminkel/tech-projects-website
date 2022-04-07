@@ -1055,16 +1055,16 @@ body {
   display: block;
   margin-top: 1.5em;
   margin-right: auto;
-  margin-bottom: 0em;
+  margin-bottom: 0;
   margin-left: auto;
   max-width: 1040px;
 }
-.post-full-content em {
-  color:grey;
+.post-full-content figcaption {
+  color: grey;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 70%;
+  font-size: 80%;
 }
 @media (max-width: 1040px) {
   .post-full-content img,
@@ -2104,12 +2104,14 @@ body {
   display: unset;
   margin: auto;
 }
-.post-full-content blockquote,
-dl,
+.post-full-content dl,
 ol,
 p,
 ul {
   margin: 0 0 0.5em;
+}
+.post-full-content blockquote {
+  margin: 0 0 0 0;
 }
 .task-list-item {
   list-style: none;
