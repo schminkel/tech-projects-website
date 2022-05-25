@@ -62,6 +62,8 @@ Go to the main page of your "GitHub Repository Project" --> "Settings" --> "Page
 ![Domainverwaltung Strato](/assets/images/github-pages-with-strato/2022-04-06_20-42-15.png)
 <figcaption>Domainverwaltung Strato</figcaption>
 
+<p>&nbsp;</p>
+<p>&nbsp;</p>
 
 ## Documentation on GitHub
 -  [Managing a custom domain for your GitHub Pages site](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site)
