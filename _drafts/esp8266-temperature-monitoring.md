@@ -1,13 +1,15 @@
-# Temperature sensors with display and alerting for reef tank monitoring
-
-Tags:
-
-- ELECTRONIC
-- ESP8266
-- MARINE-AQUARIUM
- 
-
-![Temperatur sensor for marine aquarium](/assets/images/esp8266-temperature-monitoring/temperature-monitor.jpeg)
+—-
+layout: post
+current: post
+cover:  assets/images/esp8266-temperature-monitoring/temperature-monitor.jpeg
+navigation: True
+title: Temperature sensors with display and alerting for marine aquarium
+date: 2022-05-01 06:00:00
+tags: [ELECTRONIC, ESP8266, MARINE-AQUARIUM]
+class: post-template
+subclass: ‚post‘
+author: tschminkel
+—-
 
 In marine fishkeeping the water temperature belongs to the important and easy to monitor water parameters that can be monitored electronically very easy. The temperature is strongly dependent from the room temperature and influenced by other equipment like UV-C clearer and lighting in particular if the LEDs are sitting close to the water surface. Inappropriate water temperature, meaning out of the rage of 23 to 28 °C can lead to damage or even death of the fishes and the corals.
 
