@@ -45,9 +45,9 @@ In der Meerwasseraquaristik gehört die Wassertemperatur sicherlich zu den wicht
 
 - Warum ist die Temperatur im Meerwasseraquarium so wichtig, kurze 2-3 Sätze zur Einleitung
 - standalone Gerät
-- geschlossenes Gehäuse wegen dem Salzwasser
+- geschlossenes Gehäuse wg. Salzwasser
 - wartungsfrei daher Netzteil
-- remote Kontrolle daher mqtt auf Homematic (welcher Broker???)
+- remote Kontrolle daher mqtt auf Homematic (welcher Broker?)
 - Aufzeichnung (mqtt nach Influx-DB) via Influx-DB und Auswertung via Grafana, zeitliche Überwachung wichtig, weil ansonsten keinen Überblick bei Überschreitung
 - Benachrichtigung bei Überschreitung (auch Unterschreitung) mittels Pushover (alle 10 Minuten eine Nachricht) + Flashing Display (invert, true, false) bei 28 Grad Celsius. Erklären warum 28 Grad so wichtig ist.
 - Sprich ab 28 Grad verlassen wir den optimalen Bereich, ab 29,5 Grad wird es hingegen kritisch!!!
@@ -65,7 +65,7 @@ In der Meerwasseraquaristik gehört die Wassertemperatur sicherlich zu den wicht
 
 - Bestückung der Platine —> Fritzing Schaltplan erstellen und darstellen
 - Bohrungen im Gehäuse vornehmen (welches Bohrset, Link!)
-- Acrylglas aufkleben, von hinten
+- Acrylglas aufkleben, von hinten (auf Stückliste nehmen)
 
 ## Anzeige folgender Daten auf einem OLED 64x48 Pixel (zeilenweise)
 
