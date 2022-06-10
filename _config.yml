@@ -25,7 +25,7 @@ logo_dark: assets/images/blog-icon.png # logo on the page of a post
 
 favicon: assets/images/favicon # folder
 
-CNAME: #add cname for website to be created
+#CNAME: #add cname for website to be created
 
 # Social info
 navigation: True # show the navbar links
