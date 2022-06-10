@@ -8,7 +8,7 @@ date: 2022-03-30 06:00:00
 tags: [Getting started, Electronics]
 class: post-template
 subclass: 'post'
-author: ghost
+author: tschminkel
 ---
 
 This cheat sheet provides a quick overview of all the Markdown syntax elements that are supported by Jekyll.

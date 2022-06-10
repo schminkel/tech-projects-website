@@ -8,7 +8,7 @@ date: 2022-04-04 06:00:00
 tags: [Webdevelopment]
 class: post-template
 subclass: 'post'
-author: ghost
+author: tschminkel
 ---
 
 # How to get GitHub Pages work with a custom domain from strato?
