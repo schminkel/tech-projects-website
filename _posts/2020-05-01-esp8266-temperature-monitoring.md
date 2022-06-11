@@ -3,7 +3,7 @@ layout: post
 current: post
 cover:  assets/images/esp8266-temperature-monitoring/temperature-monitor.jpeg
 navigation: True
-title: Temperature sensors with display and alerting for marine aquarium
+title: Temperature sensors with display and alerting for marine aquarium [draft, in progress]
 date: 2022-05-01 06:00:00
 tags: [ELECTRONIC, ESP8266, MARINE-AQUARIUM]
 class: post-template
@@ -11,7 +11,7 @@ subclass: ‚post‘
 author: tschminkel
 ---
 
-In marine fishkeeping the water temperature belongs to the important and easy to monitor water parameters that can be monitored electronically very easy. The temperature is strongly dependent from the room temperature and influenced by other equipment like UV-C clearer and lighting in particular if the LEDs are sitting close to the water surface. Inappropriate water temperature, meaning out of the rage of 23 to 28 °C can lead to damage or even death of the fishes and the corals.
+In marine fishkeeping the water temperature belongs to the important and easy to monitor water parameters that can be monitored electronically very easy. The temperature is strongly dependent on the room temperature and influenced by other equipment like UV-C clearer and lighting in particular if the LEDs are sitting close to the water surface. Inappropriate water temperature, meaning out of the rage of 23 to 28 °C can lead to damage or even death of the fishes and the corals.
 
 In order to monitor the temperature I build a small device with two temperature sensors that will constantly monitor the temperature at two different places in the aquarium. You don’t need your mobile all the time, the values can be checked at the display of the device and if the temperature leaves a defined range of 24-27 °C you get notified. The device has got a physical notification. That means a buzzer starts beeping and you can pause the notification by pressing the snooze button for defined period of time.
 
@@ -38,6 +38,11 @@ Now lets have a look at the list of part I used:
 | 15             | 1 x Universal Power Supply 5V                              | [Amazon-Link](https://amzn.to/3rPPTBU) |
 
 ![Temperatur Monitor Electronic Circuit](/assets/images/esp8266-temperature-monitoring/temperature-monitor-fritzing.png)
+
+## Source Code
+
+The source code of the PlatformIO project can be found on Github:
+[Github - ESP8266TemperatureMonitoring](https://github.com/schminkel/ESP8266TemperatureMonitoring)
 
 ## NOTIZEN
 
