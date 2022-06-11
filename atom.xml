@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title> - Articles</title>
+    <description>Technic Projects Blog</description>
+    <link>
+    </link>
+    
+      
+      <item>
+        <title>Temperature sensors with display and alerting for marine aquarium [draft, in progress]</title>
+        
+          <description>&lt;p&gt;In marine fishkeeping the water temperature belongs to the important and easy to monitor water parameters that can be monitored electronically very easy. The temperature is strongly dependent on the room temperature and influenced by other equipment like UV-C clearer and lighting in particular if the LEDs are sitting close to the water surface. Inappropriate water temperature, meaning out of the rage of 23 to 28 °C can lead to damage or even death of the fishes and the corals.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Sun, 01 May 2022 06:00:00 +0000</pubDate>
+        <link>
+        /esp8266-temperature-monitoring</link>
+        <guid isPermaLink="true">/esp8266-temperature-monitoring</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>GitHub Pages with Custom Domain from Strato</title>
+        
+          <description>&lt;h1 id=&quot;how-to-get-github-pages-work-with-a-custom-domain-from-strato&quot;&gt;How to get GitHub Pages work with a custom domain from strato?&lt;/h1&gt;
+
+</description>
+        
+        <pubDate>Mon, 04 Apr 2022 06:00:00 +0000</pubDate>
+        <link>
+        /github-pages-with-strato</link>
+        <guid isPermaLink="true">/github-pages-with-strato</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Jekyll Markdown Cheat Sheet</title>
+        
+          <description>&lt;p&gt;This cheat sheet provides a quick overview of all the Markdown syntax elements that are supported by Jekyll.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Wed, 30 Mar 2022 06:00:00 +0000</pubDate>
+        <link>
+        /Jekyll-Cheat-Sheet</link>
+        <guid isPermaLink="true">/Jekyll-Cheat-Sheet</guid>
+      </item>
+      
+    
+  </channel>
+</rss>
