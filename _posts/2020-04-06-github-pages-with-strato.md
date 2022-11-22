@@ -13,8 +13,7 @@ author: tschminkel
 
 # How to get GitHub Pages work with a custom domain from strato?
 
-When I was trying to configure the custom domain for my blog on GitHub I got stuck while setting it up via the Github Pages configuration. No error was show and the creation of SSL certificates displayed a progress that never finished. Finally I found a solution which is not straight forward and thats why I described it here for you. The needed configuration may be specific for strato [(www.strato.de)](http://www.strato.de) but may vary/apply to other domain providers as well.
-
+When I was trying to configure the custom domain for my blog on GitHub I got stuck while setting it up via the Github Pages configuration. No error was show and the creation of SSL certificates displayed a progress that never finished. Finally I found a solution which is not straight forward that included additional steps on the domain provider side. The needed configuration may be specific for strato [(www.strato.de)](http://www.strato.de) but may vary/apply to other domain providers as well.
 
 ## Configuration on GitHub
 Go to the main page of your "GitHub Repository Project" --> "Settings" --> "Pages" and enter your custom domain (e.g. tech-projects.blog).
