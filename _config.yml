@@ -7,10 +7,9 @@ paginate: 30 # it will paginate after this number
 language: 'en-uk'
 words_per_minute: 100
 
-# edit baseurl to simply '/' if using as your personal page (instead of a project page)
-baseurl: ''
-#baseurl: '/tech-projects-website'
-#baseurl: '/'
+# edit baseurl to simply '' if using as your personal page (instead of a project page)
+#baseurl: ''
+baseurl: '/tech-projects-website'
 
 # site.url + site.baseurl + site.basepath + ...
 basepath: '/'
