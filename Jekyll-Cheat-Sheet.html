@@ -1,0 +1,1643 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <!-- Document Settings -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <!-- Base Meta -->
+    <!-- dynamically fixing the title for tag/author pages -->
+
+
+
+    <title>Jekyll Markdown Cheat Sheet</title>
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- Show site.url:  -->
+    <!-- Show site.baseurl site.basepath: /tech-projects-website/ -->
+    
+    <!-- Styles'n'Scripts -->
+    <link rel="stylesheet" type="text/css" href="/tech-projects-website/assets/built/screen.css" />
+    <link rel="stylesheet" type="text/css" href="/tech-projects-website/assets/built/screen.edited.css" />
+    <link rel="stylesheet" type="text/css" href="/tech-projects-website/assets/built/syntax.css" />
+    <!-- highlight.js -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css">
+    <style>.hljs { background: none; }</style>
+
+    <!--[if IE]>
+        <style>
+            p, ol, ul{
+                width: 100%;
+            }
+            blockquote{
+                width: 100%;
+            }
+        </style>
+    <![endif]-->
+    
+    <!-- This tag outputs SEO meta+structured data and other important settings -->
+    <meta name="description" content="Technic Projects Blog" />
+
+    <!-- Show site.url:  -->
+    <!-- Show site.baseurl site.basepath: /tech-projects-website/ -->
+
+    <!-- <link rel="shortcut icon" href="/tech-projects-website/assets/images/favicon" type="image/png" /> -->
+
+    <!-- https://realfavicongenerator.net -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/tech-projects-website/assets/images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/tech-projects-website/assets/images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/tech-projects-website/assets/images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/tech-projects-website/assets/images/favicon/site.webmanifest">
+    <link rel="mask-icon" href="/tech-projects-website/assets/images/favicon/safari-pinned-tab.svg" color="#344cb7">
+    <meta name="msapplication-TileColor" content="#344cb7">
+    <meta name="theme-color" content="#ffffff">
+
+
+    <link rel="canonical" href="/tech-projects-websiteJekyll-Cheat-Sheet" />
+    <meta name="referrer" content="no-referrer-when-downgrade" />
+
+     <!--title below is coming from _includes/dynamic_title-->
+    <meta property="og:site_name" content="Technic Projects Blog" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Jekyll Markdown Cheat Sheet" />
+    <meta property="og:description" content="This cheat sheet provides a quick overview of all the Markdown syntax elements that are supported by Jekyll. What is Markdown? Markdown is a lightweight and easy-to-use markup language for web writers. Markdown allows you to add formatting elements to plaintext documents and then convert them to structurally valid HTML." />
+    <meta property="og:url" content="/tech-projects-website/Jekyll-Cheat-Sheet" />
+    <meta property="og:image" content="/tech-projects-website/assets/images/markdown-syntax.jpg" />
+    
+    <!-- facebook NOT used-->
+    <!--
+    <meta property="article:publisher" content="https://www.facebook.com/" />
+    <meta property="article:author" content="https://www.facebook.com/" />
+    -->
+    
+    <meta property="article:published_time" content="2022-03-30T06:00:00+00:00" />
+    <meta property="article:modified_time" content="2022-03-30T06:00:00+00:00" />
+    <meta property="article:tag" content="Getting Started" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Jekyll Markdown Cheat Sheet" />
+    <meta name="twitter:description" content="This cheat sheet provides a quick overview of all the Markdown syntax elements that are supported by Jekyll. What is Markdown? Markdown is a lightweight and easy-to-use markup language for web writers. Markdown allows you to add formatting elements to plaintext documents and then convert them to structurally valid HTML." />
+    <meta name="twitter:url" content="/tech-projects-website/" />
+    <meta name="twitter:image" content="/tech-projects-website/assets/images/markdown-syntax.jpg" />
+    <meta name="twitter:label1" content="Written by" />
+    <meta name="twitter:data1" content="Technic Projects Blog" />
+    <meta name="twitter:label2" content="Filed under" />
+    <meta name="twitter:data2" content="Getting Started" />
+    <meta name="twitter:site" content="@schminkel" />
+    <meta name="twitter:creator" content="@schminkel" />
+    <meta property="og:image:width" content="1400" />
+    <meta property="og:image:height" content="933" />
+
+    <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Website",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Technic Projects Blog",
+        "logo": "/tech-projects-website/assets/images/blog-icon.png"
+    },
+    "url": "/tech-projects-website/Jekyll-Cheat-Sheet",
+    "image": {
+        "@type": "ImageObject",
+        "url": "/tech-projects-website/assets/images/markdown-syntax.jpg",
+        "width": 2000,
+        "height": 666
+    },
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "/tech-projects-website/Jekyll-Cheat-Sheet"
+    },
+    "description": "This cheat sheet provides a quick overview of all the Markdown syntax elements that are supported by Jekyll. What is Markdown? Markdown is a lightweight and easy-to-use markup language for web writers. Markdown allows you to add formatting elements to plaintext documents and then convert them to structurally valid HTML."
+}
+    </script>
+
+    <!-- <script type="text/javascript" src="https://demo.ghost.io/public/ghost-sdk.min.js?v=724281a32e"></script>
+    <script type="text/javascript">
+    ghost.init({
+    	clientId: "ghost-frontend",
+    	clientSecret: "f84a07a72b17"
+    });
+    </script> -->
+
+    <meta name="generator" content="Jekyll 3.6.2" />
+    <link rel="alternate" type="application/rss+xml" title="Jekyll Markdown Cheat Sheet" href="/tech-projects-website/feed.xml" />
+
+
+</head>
+<body class="post-template">
+
+    <div class="site-wrapper">
+        <!-- All the main content gets inserted here, index.hbs, post.hbs, etc -->
+        <!-- default -->
+
+<!-- The tag above means: insert everything in this file
+into the {body} of the default.hbs template -->
+
+<header class="site-header outer">
+    <div class="inner">
+        
+<!-- Show site.url:  -->
+<!-- Show site.baseurl site.basepath: /tech-projects-website/ -->
+
+<nav class="site-nav">
+    <div class="site-nav-left">
+        
+            
+                <a class="site-nav-logo" href="/tech-projects-website/"><img src="/tech-projects-website/assets/images/blog-icon.png" alt="Technic Projects Blog" /></a>
+            
+        
+        
+            <ul class="nav" role="menu">
+    <li class="nav-home" role="menuitem"><a href="/tech-projects-website/">Home</a></li>
+    <li class="nav-about" role="menuitem"><a href="/tech-projects-website/about/">About</a></li>
+    <li class="nav-electronic" role="menuitem"><a href="/tech-projects-website/tag/electronic/">Electronic</a></li>
+    <!--
+    <li class="nav-try-ghost" role="menuitem"><a href="https://ghost.org">Try Ghost</a></li>
+    -->
+</ul>
+
+        
+    </div>
+    <div class="site-nav-right">
+        <div class="social-links">
+            
+            
+                <a class="social-link social-link-tw" href="https://twitter.com/schminkel" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M30.063 7.313c-.813 1.125-1.75 2.125-2.875 2.938v.75c0 1.563-.188 3.125-.688 4.625a15.088 15.088 0 0 1-2.063 4.438c-.875 1.438-2 2.688-3.25 3.813a15.015 15.015 0 0 1-4.625 2.563c-1.813.688-3.75 1-5.75 1-3.25 0-6.188-.875-8.875-2.625.438.063.875.125 1.375.125 2.688 0 5.063-.875 7.188-2.5-1.25 0-2.375-.375-3.375-1.125s-1.688-1.688-2.063-2.875c.438.063.813.125 1.125.125.5 0 1-.063 1.5-.25-1.313-.25-2.438-.938-3.313-1.938a5.673 5.673 0 0 1-1.313-3.688v-.063c.813.438 1.688.688 2.625.688a5.228 5.228 0 0 1-1.875-2c-.5-.875-.688-1.813-.688-2.75 0-1.063.25-2.063.75-2.938 1.438 1.75 3.188 3.188 5.25 4.25s4.313 1.688 6.688 1.813a5.579 5.579 0 0 1 1.5-5.438c1.125-1.125 2.5-1.688 4.125-1.688s3.063.625 4.188 1.813a11.48 11.48 0 0 0 3.688-1.375c-.438 1.375-1.313 2.438-2.563 3.188 1.125-.125 2.188-.438 3.313-.875z"/></svg>
+</a>
+            
+        </div>
+        
+            <a class="subscribe-button" href="#subscribe">Subscribe</a>
+        
+    </div>
+</nav>
+
+    </div>
+</header>
+
+<!-- Everything inside the #post tags pulls data from the post -->
+<!-- #post -->
+
+<main id="site-main" class="site-main outer" role="main">
+    <div class="inner">
+
+        <article class="post-full  tag-getting-started tag-electronics post ">
+
+            <header class="post-full-header">
+                <section class="post-full-meta"></section>
+                <time class="post-full-meta-date" datetime="30 March 2022">30&nbsp;March&nbsp;2022</time>
+                    
+                        <span class="date-divider">&nbsp;-&nbsp;</span>
+                        
+                            
+                               <a href='/tech-projects-website/tag/getting-started/'>GETTING&nbsp;STARTED</a>&nbsp;&nbsp;
+                            
+                        
+                            
+                               <a href='/tech-projects-website/tag/electronics/'>ELECTRONICS</a>
+                            
+                        
+                    
+                </section>
+                <h1 class="post-full-title">Jekyll Markdown Cheat Sheet</h1>
+                
+                
+            </header>
+
+            
+            <figure class="post-full-image" style="background-image: url(/tech-projects-website/assets/images/markdown-syntax.jpg)">
+            </figure>
+            
+
+            <section class="post-full-content">
+                <div class="kg-card-markdown">
+                    <p>This cheat sheet provides a quick overview of all the Markdown syntax elements that are supported by Jekyll.</p>
+
+<h2 id="what-is-markdown">What is Markdown?</h2>
+
+<p>Markdown is a lightweight and easy-to-use markup language for web writers. Markdown allows you to add formatting elements to plaintext documents and then convert them to structurally valid HTML.</p>
+
+<p>Markdown syntax can be divided into two broad categories. These categories are (1) basic syntax outlined in the original design document and (2) extension of basic syntax for added capability and features.</p>
+
+<p>Refer to <a href="https://www.markdownguide.org/cheat-sheet/">Markdown cheat sheet</a> for more examples.</p>
+
+<h2 id="basic-syntax">Basic syntax</h2>
+
+<p>These elements are defined in the original Markdown design document and can be used in all Markdown applications.</p>
+
+<p>Detailed information and examples can be fount at <a href="https://www.markdownguide.org/basic-syntax/">basic syntax guide</a>.</p>
+
+<hr />
+<h3 id="headings">Headings</h3>
+
+<h1 id="h1-headings">H1 Headings</h1>
+<h2 id="h2-headings">H2 Headings</h2>
+<h3 id="h3-headings">H3 Headings</h3>
+<h4 id="h4-headings">H4 Headings</h4>
+<h5 id="h5-headings">H5 Headings</h5>
+<h6 id="h6-headings">H6 Headings</h6>
+
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="gh"># H1</span>
+<span class="gu">## H2</span>
+<span class="gu">### H3</span>
+<span class="gu">#### H4</span>
+<span class="gu">##### H5</span>
+<span class="gu">###### H6</span>
+</code></pre></div></div>
+
+<hr />
+<h3 id="paragraph">Paragraph</h3>
+
+<p>Here’s a paragraph.</p>
+
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Here's a paragraph.
+</code></pre></div></div>
+
+<hr />
+<h3 id="line-break">Line break</h3>
+
+<p>Here’s another one<br />
+with a line break.</p>
+
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Here's another one  
+with a line break.
+</code></pre></div></div>
+
+<hr />
+<h3 id="bold">Bold</h3>
+
+<p>Lorem <strong>ipsum dolor</strong> sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et <strong>dolore magna</strong> aliqua.</p>
+
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Lorem <span class="gs">**ipsum dolor**</span> sit amet, consectetur adipiscing elit, 
+sed do eiusmod tempor incididunt ut labore et __dolore magna__ aliqua.
+</code></pre></div></div>
+
+<hr />
+<h3 id="italic">Italic</h3>
+
+<p>Lorem <em>ipsum dolor</em> sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et <em>dolore magna</em> aliqua.</p>
+
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Lorem <span class="ge">*ipsum dolor*</span> sit amet, consectetur adipiscing elit, 
+sed do eiusmod tempor incididunt ut labore et _dolore magna_ aliqua.
+</code></pre></div></div>
+
+<hr />
+<h3 id="highlight">Highlight</h3>
+
+<p>abcd <mark>Highlight</mark> efgh</p>
+
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code>abcd <span class="nt">&lt;mark&gt;</span>Highlight<span class="nt">&lt;/mark&gt;</span> efgh
+</code></pre></div></div>
+
+<hr />
+<h3 id="blockquote">Blockquote</h3>
+
+<blockquote>
+  <p>blockquote text</p>
+</blockquote>
+
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="gt">&gt; blockquote text</span>
+</code></pre></div></div>
+
+<blockquote>
+  <p>Blockquote</p>
+  <blockquote>
+    <p>Nested Blockquote</p>
+  </blockquote>
+</blockquote>
+
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="gt">&gt; Blockquote</span>
+<span class="gt">&gt;&gt; Nested Blockquote</span>
+</code></pre></div></div>
+
+<hr />
+<blockquote>
+  <p>Blockquote with horizontal lines</p>
+</blockquote>
+
+<hr />
+
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nn">---</span>
+<span class="pi">&gt;</span> <span class="err">Blockquote</span> <span class="err">with</span> <span class="err">horizontal</span> <span class="err">lines</span>
+
+<span class="err">-</span><span class="s">--</span>
+</code></pre></div></div>
+
+<hr />
+<h3 id="ordered-list">Ordered list</h3>
+
+<ol>
+  <li>Item 1</li>
+  <li>Item 2
+    <ol>
+      <li>Item 2a</li>
+      <li>Item 2b</li>
+    </ol>
+  </li>
+  <li>Item 3</li>
+</ol>
+
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">1.</span> Item 1
+<span class="p">1.</span> Item 2
+<span class="p">    1.</span> Item 2a
+<span class="p">    1.</span> Item 2b
+<span class="p">1.</span> Item 3
+</code></pre></div></div>
+
+<hr />
+<h3 id="unordered-list">Unordered list</h3>
+
+<ul>
+  <li>Item</li>
+  <li>Item
+    <ul>
+      <li>Indented item</li>
+      <li>Indented item</li>
+    </ul>
+  </li>
+  <li>Item</li>
+</ul>
+
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">-</span> Item
+<span class="p">-</span> Item
+<span class="p">    -</span> Indented item
+<span class="p">    -</span> Indented item
+<span class="p">-</span> Item
+</code></pre></div></div>
+
+<hr />
+<h3 id="inline-code">Inline code</h3>
+
+<p>This is an inline <code class="language-plaintext highlighter-rouge">code</code>.</p>
+
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code>This is an inline <span class="sb">`code`</span>.
+</code></pre></div></div>
+
+<hr />
+<h3 id="horizontal-line">Horizontal line</h3>
+
+<p>Here’s some text.</p>
+
+<hr />
+
+<p>Here’s more text.</p>
+
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Here's some text.
+<span class="p">
+---
+</span>
+Here's more text.
+</code></pre></div></div>
+
+<hr />
+<h3 id="link">Link</h3>
+
+<p><a href="https://www.example.com">title</a></p>
+
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">[</span><span class="nv">title</span><span class="p">](</span><span class="sx">https://www.example.com</span><span class="p">)</span>
+</code></pre></div></div>
+
+<hr />
+<h3 id="image">Image</h3>
+
+<p><img src="/assets/images/ghost.png" alt="alt text" /></p>
+<figcaption>Caption goes here</figcaption>
+
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">![</span><span class="nv">alt text</span><span class="p">](</span><span class="sx">/assets/images/ghost.png</span><span class="p">)</span>
+<span class="nt">&lt;figcaption&gt;</span>Caption goes here<span class="nt">&lt;/figcaption&gt;</span>
+</code></pre></div></div>
+
+<h2 id="extended-syntax">Extended syntax</h2>
+
+<p>These elements provide additional features by extending the basic syntax. Not all Markdown applications support these elements and each <code class="language-plaintext highlighter-rouge">Markdown Flavor</code> differs slightly.</p>
+
+<p>Note that GitHub.com uses its own version of the Markdown syntax called <a href="https://guides.github.com/features/mastering-markdown/#GitHub-flavored-markdown">GitHub Flavored Markdown</a> and some features are only available in the issues and pull requests.</p>
+
+<p>Refer to <a href="https://www.markdownguide.org/tools/jekyll/">Jekyll Markdown coverage</a> for a list of supported elements.</p>
+
+<p>Detailed information and examples can be fount at <a href="https://www.markdownguide.org/extended-syntax/">extended syntax guide</a>.</p>
+
+<hr />
+<h3 id="table">Table</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Syntax</th>
+      <th>Description</th>
+      <th>Link</th>
+      <th>Image</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Header</td>
+      <td>Title</td>
+      <td><a href="https://www.amazon.de">amazon.de</a></td>
+      <td><img src="/assets/images/amazon-icon.png" alt="alt text" /></td>
+    </tr>
+    <tr>
+      <td>Paragraph</td>
+      <td>Text</td>
+      <td><a href="https://www.amazon.de">amazon.de</a></td>
+      <td><img src="/assets/images/amazon-icon.png" alt="alt text" /></td>
+    </tr>
+  </tbody>
+</table>
+
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code>| Syntax    | Description | Link                               | Image                                              |
+| --------- | ----------- | ---------------------------------- | -------------------------------------------------- |
+| Header    | Title       | <span class="p">[</span><span class="nv">amazon.de</span><span class="p">](</span><span class="sx">https://www.amazon.de</span><span class="p">)</span> | !<span class="p">[</span><span class="nv">alt text</span><span class="p">](</span><span class="sx">/assets/images/amazon-icon.png</span><span class="p">)</span>|
+| Paragraph | Text        | <span class="p">[</span><span class="nv">amazon.de</span><span class="p">](</span><span class="sx">https://www.amazon.de</span><span class="p">)</span> | !<span class="p">[</span><span class="nv">alt text</span><span class="p">](</span><span class="sx">/assets/images/amazon-icon.png</span><span class="p">)</span>|
+</code></pre></div></div>
+
+<hr />
+<h3 id="code-block-no-highlighting">Code block (no highlighting)</h3>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>{
+    "firstName": "John",
+    "lastName": "Doe",
+    "age": 25
+}
+</code></pre></div></div>
+
+<hr />
+<h3 id="syntax-highlighting-eg-json">Syntax highlighting (e.g. Json)</h3>
+
+<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="w">
+    </span><span class="nl">"firstName"</span><span class="p">:</span><span class="w"> </span><span class="s2">"John"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"lastName"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Doe"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"age"</span><span class="p">:</span><span class="w"> </span><span class="mi">25</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre></div></div>
+
+<hr />
+<h3 id="syntax-highlighting-eg-java">Syntax highlighting (e.g. Java)</h3>
+
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">public</span> <span class="kd">class</span> <span class="nc">HelloWorld</span> 
+<span class="o">{</span>
+    <span class="kd">public</span> <span class="kd">static</span> <span class="kt">void</span> <span class="nf">main</span> <span class="o">(</span><span class="nc">String</span><span class="o">[]</span> <span class="n">args</span><span class="o">)</span>
+    <span class="o">{</span>
+        <span class="c1">// Output "Hello World!"</span>
+        <span class="nc">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="s">"Hello World!"</span><span class="o">);</span>
+    <span class="o">}</span>
+<span class="o">}</span>
+</code></pre></div></div>
+
+<hr />
+<h3 id="footnote">Footnote</h3>
+
+<p>Here’s a sentence with a footnote reference. <sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup></p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Here's a sentence with a footnote reference. [^1]
+
+[^1]: This is the footnote.
+</code></pre></div></div>
+
+<hr />
+<h3 id="abbreviation">Abbreviation</h3>
+
+<p>The <abbr title="Simple Mail Transfer Protocol">SMTP</abbr> is a communication protocol for email transmission.</p>
+
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="err">*</span>[SMTP]: Simple Mail Transfer Protocol
+The SMTP is a communication protocol for email transmission.
+</code></pre></div></div>
+
+<hr />
+<h3 id="heading-id">Heading ID</h3>
+
+<h3 id="custom-id">Awesome Heading</h3>
+<p><a href="#custom-id">link-to-awesome-heading</a></p>
+
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="gu">### Awesome Heading {#custom-id}</span>
+<span class="p">[</span><span class="nv">link-to-awesome-heading</span><span class="p">](</span><span class="sx">#custom-id</span><span class="p">)</span>
+</code></pre></div></div>
+
+<hr />
+<h3 id="definition-list">Definition list</h3>
+
+<p>Not supported by Jekyll.</p>
+
+<dl>
+  <dt>term</dt>
+  <dd>definition</dd>
+</dl>
+
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code>term
+: definition
+</code></pre></div></div>
+
+<hr />
+<h3 id="strikethrough">Strikethrough</h3>
+
+<p>abcd <del>text</del> efgh</p>
+
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code>abcd ~~text~~ efgh
+</code></pre></div></div>
+
+<hr />
+<h3 id="task-list">Task list</h3>
+
+<ul class="task-list">
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />Read the Markdown guide</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Review the style guide</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Stay awesome!</li>
+</ul>
+
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">-</span> [x] Read the Markdown guide
+<span class="p">-</span> [ ] Review the style guide
+<span class="p">-</span> [ ] Stay awesome!
+</code></pre></div></div>
+
+<hr />
+<h3 id="emoji-characters">Emoji characters</h3>
+
+<p>👍 🤓</p>
+
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code>👍 🤓
+</code></pre></div></div>
+
+<hr />
+<h3 id="emoji-shortcodes">Emoji shortcodes</h3>
+
+<p>Not supported by Jekyll.</p>
+
+<p>:rocket:</p>
+
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code>:rocket:
+</code></pre></div></div>
+
+<hr />
+<h3 id="automatic-url-linking">Automatic URL linking</h3>
+
+<p>Not supported by Jekyll.</p>
+
+<p>https://www.example.com</p>
+
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code>https://www.example.com
+</code></pre></div></div>
+
+<hr />
+<h3 id="disabling-automatic-url-linking">Disabling automatic URL linking</h3>
+
+<p>Not supported by Jekyll.</p>
+
+<p><code class="language-plaintext highlighter-rouge">https://www.example.com</code></p>
+
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="sb">`https://www.example.com`</span>
+</code></pre></div></div>
+
+<hr />
+<h3 id="html">HTML</h3>
+
+<div>
+    <p>HTML test paragraph.</p>
+</div>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;div&gt;</span>
+    <span class="nt">&lt;p&gt;</span>HTML test paragraph.<span class="nt">&lt;/p&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+</code></pre></div></div>
+
+<hr />
+<h3 id="spacing">Spacing</h3>
+
+<p>Some Text here.</p>
+<p>&nbsp;</p>
+<p>Some Text here.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Some Text here.
+<span class="nt">&lt;p&gt;</span><span class="ni">&amp;nbsp;</span><span class="nt">&lt;/p&gt;</span>
+Some Text here.
+</code></pre></div></div>
+
+<hr />
+<h2 id="further-reading">Further reading</h2>
+
+<p><a href="https://www.markdownguide.org/getting-started/">The Markdown Guide</a> provides a detailed overview of Markdown, how it works, and what can be done with it.</p>
+
+<p>Hands on Markdown experience can be achieved by completing <a href="https://www.markdowntutorial.com">The Markdown Tutorial</a> or simply experimenting with online editors such as <a href="https://stackedit.io">StackEdit</a>.</p>
+
+<p>A collection of awesome markdown goodies (libraries, services, editors, tools, cheatsheets, etc.) can be found at <a href="https://github.com/mundimark/awesome-markdown">Awesome Markdown Repo</a> on GitHub.</p>
+
+<hr />
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:1" role="doc-endnote">
+      <p>This is the footnote. <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+
+                </div>
+            </section>
+
+            <!-- Email subscribe form at the bottom of the page -->
+            
+                <section class="subscribe-form">
+                    <h3 class="subscribe-form-title">Subscribe to Technic Projects Blog</h3>
+                    <p>Get the latest posts delivered right to your inbox - no spam, trust me!</p>
+                    <!-- Begin Mailchimp Signup Form -->
+<!--link href="//cdn-images.mailchimp.com/embedcode/classic-10_7_dtp.css" rel="stylesheet" type="text/css"-->
+<style type="text/css">
+    #mc_embed_signup form {
+        display: block;
+        position: relative;
+        text-align: center;
+        padding: 0px 0px 0px 0px
+    }
+
+    #mc_embed_signup h2 {
+        font-weight: bold;
+        padding: 0;
+        margin: 15px 0;
+        font-size: 1.4em;
+    }
+
+    #mc_embed_signup input {
+        border: 1px solid #ABB0B2;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        color: black;
+    }
+
+    #mc_embed_signup input[type=checkbox] {
+        -webkit-appearance: checkbox;
+    }
+
+    #mc_embed_signup input[type=radio] {
+        -webkit-appearance: radio;
+    }
+
+    #mc_embed_signup input:focus {
+        border-color: #333;
+    }
+
+    #mc_embed_signup .button {
+        clear: both;
+        background-color: #aaa;
+        border: 0 none;
+        border-radius: 4px;
+        transition: all 0.23s ease-in-out 0s;
+        color: #FFFFFF;
+        cursor: pointer;
+        display: inline-block;
+        font-size: 15px;
+        font-weight: normal;
+        height: 32px;
+        line-height: 32px;
+        margin: 0 5px 10px 0;
+        padding: 0 22px;
+        text-align: center;
+        text-decoration: none;
+        vertical-align: top;
+        white-space: nowrap;
+        width: fit-content;
+        width: -moz-fit-content;
+    }
+
+    #mc_embed_signup .button:hover {
+        background-color: #777;
+    }
+
+    #mc_embed_signup .small-meta {
+        font-size: 11px;
+    }
+
+    #mc_embed_signup .nowrap {
+        white-space: nowrap;
+    }
+
+    #mc_embed_signup .mc-field-group {
+        clear: left;
+        position: relative;
+        width: 100%;
+        padding-bottom: 3%;
+        min-height: 50px;
+        text-align: center;
+    }
+
+    #mc_embed_signup .size1of2 {
+        clear: none;
+        float: left;
+        display: inline-block;
+        width: 46%;
+        margin-right: 4%;
+    }
+
+    * html #mc_embed_signup .size1of2 {
+        margin-right: 2%;
+        /* Fix for IE6 double margins. */
+    }
+
+    #mc_embed_signup .mc-field-group label {
+        display: block;
+        margin-bottom: 3px;
+    }
+
+    #mc_embed_signup .mc-field-group input {
+        display: block;
+        width: 70%;
+        padding: 8px 0;
+        text-indent: 2%;
+    }
+
+    #mc_embed_signup .mc-field-group select {
+        display: inline-block;
+        width: 99%;
+        padding: 5px 0;
+        margin-bottom: 2px;
+    }
+
+    #mc_embed_signup .datefield,
+    #mc_embed_signup .phonefield-us {
+        padding: 5px 0;
+    }
+
+    #mc_embed_signup .datefield input,
+    #mc_embed_signup .phonefield-us input {
+        display: inline;
+        width: 60px;
+        margin: 0 2px;
+        letter-spacing: 1px;
+        text-align: center;
+        padding: 5px 0 2px 0;
+    }
+
+    #mc_embed_signup .phonefield-us .phonearea input,
+    #mc_embed_signup .phonefield-us .phonedetail1 input {
+        width: 40px;
+    }
+
+    #mc_embed_signup .datefield .monthfield input,
+    #mc_embed_signup .datefield .dayfield input {
+        width: 30px;
+    }
+
+    #mc_embed_signup .datefield label,
+    #mc_embed_signup .phonefield-us label {
+        display: none;
+    }
+
+    #mc_embed_signup .indicates-required {
+        text-align: right;
+        font-size: 11px;
+        margin-right: 4%;
+    }
+
+    #mc_embed_signup .asterisk {
+        color: #e85c41;
+        font-size: 150%;
+        font-weight: normal;
+        position: relative;
+        top: 5px;
+    }
+
+    #mc_embed_signup .clear {
+        clear: both;
+    }
+
+    #mc_embed_signup .foot {
+        width: 100%;
+        align-items: center;
+    }
+
+    @media screen and (max-width:400px) {
+        #mc_embed_signup .foot {
+            display: grid;
+            grid-template-columns: 1fr;
+            width: 100%;
+            align-items: center;
+        }
+    }
+
+    @media screen and (max-width:400px) {
+        #mc_embed_signup .referralBadge {
+            width: 50%;
+        }
+    }
+
+    #mc_embed_signup .brandingLogo {
+        justify-self: right;
+    }
+
+    @media screen and (max-width:400px) {
+        #mc_embed_signup .brandingLogo {
+            justify-self: left;
+        }
+    }
+
+    #mc_embed_signup .mc-field-group.input-group ul {
+        margin: 0;
+        padding: 5px 0;
+        list-style: none;
+    }
+
+    #mc_embed_signup .mc-field-group.input-group ul li {
+        display: block;
+        padding: 3px 0;
+        margin: 0;
+    }
+
+    #mc_embed_signup .mc-field-group.input-group label {
+        display: inline;
+    }
+
+    #mc_embed_signup .mc-field-group.input-group input {
+        display: inline;
+        width: auto;
+        border: none;
+    }
+
+    #mc_embed_signup div#mce-responses {
+        float: left;
+        top: -1.4em;
+        padding: 0em .5em 0em .5em;
+        overflow: hidden;
+        width: 90%;
+        margin: 0 5%;
+        clear: both;
+    }
+
+    #mc_embed_signup div.response {
+        margin: 1em 0;
+        padding: 1em .5em .5em 0;
+        font-weight: bold;
+        float: left;
+        top: -1.5em;
+        z-index: 1;
+        width: 100%;
+    }
+
+    #mc_embed_signup #mce-error-response {
+        display: none;
+    }
+
+    #mc_embed_signup #mce-success-response {
+        color: #529214;
+        display: none;
+        text-align: center;
+    }
+
+    #mc_embed_signup label.error {
+        display: block;
+        float: none;
+        width: auto;
+        margin-left: 1.05em;
+        text-align: left;
+        padding: .5em 0;
+    }
+
+    #mc-embedded-subscribe {
+        clear: both;
+        width: auto;
+        display: block;
+        margin: 1em 0 1em 5%;
+    }
+
+    #mc_embed_signup #num-subscribers {
+        font-size: 1.1em;
+    }
+
+    #mc_embed_signup #num-subscribers span {
+        padding: .5em;
+        border: 1px solid #ccc;
+        margin-right: .5em;
+        font-weight: bold;
+    }
+
+    #mc_embed_signup #mc-embedded-subscribe-form div.mce_inline_error {
+        display: inline-block;
+        margin: 2px 0 1em 0;
+        padding: 3px;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        font-size: 14px;
+        font-weight: normal;
+        z-index: 1;
+        color: #e85c41;
+    }
+
+    #mc_embed_signup #mc-embedded-subscribe-form input.mce_inline_error {
+        border: 2px solid #e85c41;
+    }
+
+    ::placeholder {
+        /* Chrome, Firefox, Opera, Safari 10.1+ */
+        color: lightgray;
+        opacity: 1;
+        /* Firefox */
+    }
+</style>
+<div id="mc_embed_signup">
+    <form action="https://schminkel.us14.list-manage.com/subscribe/post?u=698108a30e3b767e58e99bab9&amp;id=b53898d6ff"
+        method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank"
+        novalidate>
+        <div id="mc_embed_signup_scroll">
+
+            <div class="indicates-required"></div>
+            <div class="mc-field-group">
+                <center>
+                    <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL"
+                        placeholder="email@example.com">
+                </center>
+            </div>
+            <div id="mce-responses" class="clear foot">
+                <div class="response" id="mce-error-response" style="display:none"></div>
+                <div class="response" id="mce-success-response" style="display:none"></div>
+            </div>
+            <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+            <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text"
+                    name="b_698108a30e3b767e58e99bab9_b53898d6ff" tabindex="-1" value=""></div>
+            <center>
+                <div class="optionalParent">
+
+                    <div class="clear foot">
+                        <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe"
+                            class="button">
+                    </div>
+
+                </div>
+            </center>
+        </div>
+    </form>
+</div>
+<script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
+<script
+    type='text/javascript'>(function ($) { window.fnames = new Array(); window.ftypes = new Array(); fnames[0] = 'EMAIL'; ftypes[0] = 'email'; fnames[1] = 'FNAME'; ftypes[1] = 'text'; fnames[2] = 'LNAME'; ftypes[2] = 'text'; fnames[3] = 'ADDRESS'; ftypes[3] = 'address'; fnames[4] = 'PHONE'; ftypes[4] = 'phone'; fnames[5] = 'BIRTHDAY'; ftypes[5] = 'birthday'; }(jQuery)); var $mcj = jQuery.noConflict(true);</script>
+<!--End mc_embed_signup-->
+                </section>
+            
+
+            <footer class="post-full-footer">
+                <!-- Everything inside the #author tags pulls data from the author -->
+                <!-- #author-->
+                
+                    
+                        <section class="author-card">
+                            
+                                <img class="author-profile-image" src="/tech-projects-website/assets/images/tschminkel.jpg" alt="tschminkel" />
+                            
+                            <section class="author-card-content">
+                                <h4 class="author-card-name"><a href="/tech-projects-website/author/tschminkel">Thorsten Schminkel</a></h4>
+                                
+                                    <p>Tech Enthusiast, Software Architect and Engineer, Program Manager, Daddy and Husband - all in one.</p>
+                                
+                            </section>
+                        </section>
+                        <div class="post-full-footer-right">
+                            <a class="author-card-button" href="/tech-projects-website/author/tschminkel">Read More</a>
+                        </div>
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                <!-- /author  -->
+            </footer>
+
+            <!-- If you use Disqus comments, just uncomment this block.
+            The only thing you need to change is "test-apkdzgmqhj" - which
+            should be replaced with your own Disqus site-id. -->
+            
+
+        </article>
+
+    </div>
+</main>
+
+<!-- Links to Previous/Next posts -->
+<aside class="read-next outer">
+    <div class="inner">
+        <div class="read-next-feed">
+            
+                
+                
+                
+                
+            
+
+            <!-- If there's a next post, display it using the same markup included from - partials/post-card.hbs -->
+            
+                
+
+    <article class="post-card post-template">
+        
+            <a class="post-card-image-link" href="/tech-projects-website/github-pages-with-strato">
+                <div class="post-card-image" style="background-image: url(/tech-projects-website/assets/images/github-pages-with-strato/github-pages.jpg)"></div>
+            </a>
+        
+        <div class="post-card-content">
+            <a class="post-card-content-link" href="/tech-projects-website/github-pages-with-strato">
+                <header class="post-card-header">
+                    
+                        
+                            
+                                <span class="post-card-tags">Webdevelopment</span>
+                            
+                        
+                    
+
+                    <h2 class="post-card-title">GitHub Pages with Custom Domain from Strato</h2>
+                </header>
+                <section class="post-card-excerpt">
+                    
+                        <p>How to get GitHub Pages work with a custom domain from strato?
+
+</p>
+                    
+                </section>
+            </a>
+            <footer class="post-card-meta">
+                
+                    
+                        
+                        <img class="author-profile-image" src="/tech-projects-website/assets/images/tschminkel.jpg" alt="Thorsten Schminkel" />
+                        
+                        <span class="post-card-author">
+                            <a href="/tech-projects-website/author/tschminkel/">Thorsten Schminkel</a>
+                        </span>
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                <span class="reading-time">
+                    
+                    
+                      2 min read
+                    
+                </span>
+            </footer>
+        </div>
+    </article>
+
+            
+
+            <!-- If there's a previous post, display it using the same markup included from - partials/post-card.hbs -->
+            
+
+        </div>
+    </div>
+</aside>
+
+<!-- Floating header which appears on-scroll, included from includes/floating-header.hbs -->
+<div class="floating-header">
+    <div class="floating-header-logo">
+        <a href="/tech-projects-website/">
+            
+                <img src="/tech-projects-website/assets/images/blog-icon.png" alt="Technic Projects Blog icon" />
+            
+            <span>Technic Projects Blog</span>
+        </a>
+    </div>
+    <span class="floating-header-divider">&mdash;</span>
+    <div class="floating-header-title">Jekyll Markdown Cheat Sheet</div>
+    <div class="floating-header-share">
+        <div class="floating-header-share-label">Share this <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+    <path d="M7.5 15.5V4a1.5 1.5 0 1 1 3 0v4.5h2a1 1 0 0 1 1 1h2a1 1 0 0 1 1 1H18a1.5 1.5 0 0 1 1.5 1.5v3.099c0 .929-.13 1.854-.385 2.748L17.5 23.5h-9c-1.5-2-5.417-8.673-5.417-8.673a1.2 1.2 0 0 1 1.76-1.605L7.5 15.5zm6-6v2m-3-3.5v3.5m6-1v2"/>
+</svg>
+</div>
+        <a class="floating-header-share-tw" href="https://twitter.com/share?text=Jekyll+Markdown+Cheat+Sheet&amp;url=https://tech-projects.blog/Jekyll-Cheat-Sheet"
+            onclick="window.open(this.href, 'share-twitter', 'width=550,height=235');return false;">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M30.063 7.313c-.813 1.125-1.75 2.125-2.875 2.938v.75c0 1.563-.188 3.125-.688 4.625a15.088 15.088 0 0 1-2.063 4.438c-.875 1.438-2 2.688-3.25 3.813a15.015 15.015 0 0 1-4.625 2.563c-1.813.688-3.75 1-5.75 1-3.25 0-6.188-.875-8.875-2.625.438.063.875.125 1.375.125 2.688 0 5.063-.875 7.188-2.5-1.25 0-2.375-.375-3.375-1.125s-1.688-1.688-2.063-2.875c.438.063.813.125 1.125.125.5 0 1-.063 1.5-.25-1.313-.25-2.438-.938-3.313-1.938a5.673 5.673 0 0 1-1.313-3.688v-.063c.813.438 1.688.688 2.625.688a5.228 5.228 0 0 1-1.875-2c-.5-.875-.688-1.813-.688-2.75 0-1.063.25-2.063.75-2.938 1.438 1.75 3.188 3.188 5.25 4.25s4.313 1.688 6.688 1.813a5.579 5.579 0 0 1 1.5-5.438c1.125-1.125 2.5-1.688 4.125-1.688s3.063.625 4.188 1.813a11.48 11.48 0 0 0 3.688-1.375c-.438 1.375-1.313 2.438-2.563 3.188 1.125-.125 2.188-.438 3.313-.875z"/></svg>
+
+        </a>
+        <!-- facebook NOT used-->
+        <!--
+        <a class="floating-header-share-fb" href="https://www.facebook.com/sharer/sharer.php?u=https://tech-projects.blog/Jekyll-Cheat-Sheet"
+            onclick="window.open(this.href, 'share-facebook','width=580,height=296');return false;">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M19 6h5V0h-5c-3.86 0-7 3.14-7 7v3H8v6h4v16h6V16h5l1-6h-6V7c0-.542.458-1 1-1z"/></svg>
+
+        </a>
+        -->
+    </div>
+    <progress class="progress" value="0">
+        <div class="progress-container">
+            <span class="progress-bar"></span>
+        </div>
+    </progress>
+</div>
+
+
+<!-- /post -->
+
+<!-- The #contentFor helper here will send everything inside it up to the matching #block helper found in default.hbs -->
+
+
+        <!-- Previous/next page links - displayed on every page -->
+        
+
+        <!-- The footer at the very bottom of the screen -->
+        <footer class="site-footer outer">
+            <div class="site-footer-content inner">
+                <section class="copyright"><a href="/tech-projects-website/">Technic Projects Blog</a> &copy; 2023</section>
+                <!--
+                <section class="poweredby">Proudly published with <a href="https://jekyllrb.com/">Jekyll</a> &
+                    <a href="https://pages.github.com/" target="_blank" rel="noopener">GitHub Pages</a> using
+                    <a href="https://github.com/jekyllt/jasper2" target="_blank" rel="noopener">Jasper2</a></section>
+                -->
+                <nav class="site-footer-nav">
+                    <a href="/tech-projects-website/">Latest Posts</a>
+                    
+                    <a href="https://twitter.com/schminkel" target="_blank" rel="noopener">Twitter</a>
+                    <!--
+                    <a href="https://ghost.org" target="_blank" rel="noopener">Ghost</a>
+                    -->
+                </nav>
+            </div>
+        </footer>
+
+    </div>
+
+    <!-- The big email subscribe modal content -->
+    
+        <div id="subscribe" class="subscribe-overlay">
+            <a class="subscribe-overlay-close" href="#"></a>
+            <div class="subscribe-overlay-content">
+                
+                    <img class="subscribe-overlay-logo" src="/tech-projects-website/assets/images/blog-icon.png" alt="Technic Projects Blog" />
+                
+                <h1 class="subscribe-overlay-title">Subscribe to Technic Projects Blog</h1>
+                <p class="subscribe-overlay-description">Stay up to date! Get all the latest &amp; greatest posts delivered straight to your inbox</p>
+                <p class="subscribe-overlay-description">NO spam, trust me!</p>
+                <!-- Begin Mailchimp Signup Form -->
+<!--link href="//cdn-images.mailchimp.com/embedcode/classic-10_7_dtp.css" rel="stylesheet" type="text/css"-->
+<style type="text/css">
+    #mc_embed_signup form {
+        display: block;
+        position: relative;
+        text-align: center;
+        padding: 0px 0px 0px 0px
+    }
+
+    #mc_embed_signup h2 {
+        font-weight: bold;
+        padding: 0;
+        margin: 15px 0;
+        font-size: 1.4em;
+    }
+
+    #mc_embed_signup input {
+        border: 1px solid #ABB0B2;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        color: black;
+    }
+
+    #mc_embed_signup input[type=checkbox] {
+        -webkit-appearance: checkbox;
+    }
+
+    #mc_embed_signup input[type=radio] {
+        -webkit-appearance: radio;
+    }
+
+    #mc_embed_signup input:focus {
+        border-color: #333;
+    }
+
+    #mc_embed_signup .button {
+        clear: both;
+        background-color: #aaa;
+        border: 0 none;
+        border-radius: 4px;
+        transition: all 0.23s ease-in-out 0s;
+        color: #FFFFFF;
+        cursor: pointer;
+        display: inline-block;
+        font-size: 15px;
+        font-weight: normal;
+        height: 32px;
+        line-height: 32px;
+        margin: 0 5px 10px 0;
+        padding: 0 22px;
+        text-align: center;
+        text-decoration: none;
+        vertical-align: top;
+        white-space: nowrap;
+        width: fit-content;
+        width: -moz-fit-content;
+    }
+
+    #mc_embed_signup .button:hover {
+        background-color: #777;
+    }
+
+    #mc_embed_signup .small-meta {
+        font-size: 11px;
+    }
+
+    #mc_embed_signup .nowrap {
+        white-space: nowrap;
+    }
+
+    #mc_embed_signup .mc-field-group {
+        clear: left;
+        position: relative;
+        width: 100%;
+        padding-bottom: 3%;
+        min-height: 50px;
+        text-align: center;
+    }
+
+    #mc_embed_signup .size1of2 {
+        clear: none;
+        float: left;
+        display: inline-block;
+        width: 46%;
+        margin-right: 4%;
+    }
+
+    * html #mc_embed_signup .size1of2 {
+        margin-right: 2%;
+        /* Fix for IE6 double margins. */
+    }
+
+    #mc_embed_signup .mc-field-group label {
+        display: block;
+        margin-bottom: 3px;
+    }
+
+    #mc_embed_signup .mc-field-group input {
+        display: block;
+        width: 70%;
+        padding: 8px 0;
+        text-indent: 2%;
+    }
+
+    #mc_embed_signup .mc-field-group select {
+        display: inline-block;
+        width: 99%;
+        padding: 5px 0;
+        margin-bottom: 2px;
+    }
+
+    #mc_embed_signup .datefield,
+    #mc_embed_signup .phonefield-us {
+        padding: 5px 0;
+    }
+
+    #mc_embed_signup .datefield input,
+    #mc_embed_signup .phonefield-us input {
+        display: inline;
+        width: 60px;
+        margin: 0 2px;
+        letter-spacing: 1px;
+        text-align: center;
+        padding: 5px 0 2px 0;
+    }
+
+    #mc_embed_signup .phonefield-us .phonearea input,
+    #mc_embed_signup .phonefield-us .phonedetail1 input {
+        width: 40px;
+    }
+
+    #mc_embed_signup .datefield .monthfield input,
+    #mc_embed_signup .datefield .dayfield input {
+        width: 30px;
+    }
+
+    #mc_embed_signup .datefield label,
+    #mc_embed_signup .phonefield-us label {
+        display: none;
+    }
+
+    #mc_embed_signup .indicates-required {
+        text-align: right;
+        font-size: 11px;
+        margin-right: 4%;
+    }
+
+    #mc_embed_signup .asterisk {
+        color: #e85c41;
+        font-size: 150%;
+        font-weight: normal;
+        position: relative;
+        top: 5px;
+    }
+
+    #mc_embed_signup .clear {
+        clear: both;
+    }
+
+    #mc_embed_signup .foot {
+        width: 100%;
+        align-items: center;
+    }
+
+    @media screen and (max-width:400px) {
+        #mc_embed_signup .foot {
+            display: grid;
+            grid-template-columns: 1fr;
+            width: 100%;
+            align-items: center;
+        }
+    }
+
+    @media screen and (max-width:400px) {
+        #mc_embed_signup .referralBadge {
+            width: 50%;
+        }
+    }
+
+    #mc_embed_signup .brandingLogo {
+        justify-self: right;
+    }
+
+    @media screen and (max-width:400px) {
+        #mc_embed_signup .brandingLogo {
+            justify-self: left;
+        }
+    }
+
+    #mc_embed_signup .mc-field-group.input-group ul {
+        margin: 0;
+        padding: 5px 0;
+        list-style: none;
+    }
+
+    #mc_embed_signup .mc-field-group.input-group ul li {
+        display: block;
+        padding: 3px 0;
+        margin: 0;
+    }
+
+    #mc_embed_signup .mc-field-group.input-group label {
+        display: inline;
+    }
+
+    #mc_embed_signup .mc-field-group.input-group input {
+        display: inline;
+        width: auto;
+        border: none;
+    }
+
+    #mc_embed_signup div#mce-responses {
+        float: left;
+        top: -1.4em;
+        padding: 0em .5em 0em .5em;
+        overflow: hidden;
+        width: 90%;
+        margin: 0 5%;
+        clear: both;
+    }
+
+    #mc_embed_signup div.response {
+        margin: 1em 0;
+        padding: 1em .5em .5em 0;
+        font-weight: bold;
+        float: left;
+        top: -1.5em;
+        z-index: 1;
+        width: 100%;
+    }
+
+    #mc_embed_signup #mce-error-response {
+        display: none;
+    }
+
+    #mc_embed_signup #mce-success-response {
+        color: #529214;
+        display: none;
+        text-align: center;
+    }
+
+    #mc_embed_signup label.error {
+        display: block;
+        float: none;
+        width: auto;
+        margin-left: 1.05em;
+        text-align: left;
+        padding: .5em 0;
+    }
+
+    #mc-embedded-subscribe {
+        clear: both;
+        width: auto;
+        display: block;
+        margin: 1em 0 1em 5%;
+    }
+
+    #mc_embed_signup #num-subscribers {
+        font-size: 1.1em;
+    }
+
+    #mc_embed_signup #num-subscribers span {
+        padding: .5em;
+        border: 1px solid #ccc;
+        margin-right: .5em;
+        font-weight: bold;
+    }
+
+    #mc_embed_signup #mc-embedded-subscribe-form div.mce_inline_error {
+        display: inline-block;
+        margin: 2px 0 1em 0;
+        padding: 3px;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        font-size: 14px;
+        font-weight: normal;
+        z-index: 1;
+        color: #e85c41;
+    }
+
+    #mc_embed_signup #mc-embedded-subscribe-form input.mce_inline_error {
+        border: 2px solid #e85c41;
+    }
+
+    ::placeholder {
+        /* Chrome, Firefox, Opera, Safari 10.1+ */
+        color: lightgray;
+        opacity: 1;
+        /* Firefox */
+    }
+</style>
+<div id="mc_embed_signup">
+    <form action="https://schminkel.us14.list-manage.com/subscribe/post?u=698108a30e3b767e58e99bab9&amp;id=b53898d6ff"
+        method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank"
+        novalidate>
+        <div id="mc_embed_signup_scroll">
+
+            <div class="indicates-required"></div>
+            <div class="mc-field-group">
+                <center>
+                    <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL"
+                        placeholder="email@example.com">
+                </center>
+            </div>
+            <div id="mce-responses" class="clear foot">
+                <div class="response" id="mce-error-response" style="display:none"></div>
+                <div class="response" id="mce-success-response" style="display:none"></div>
+            </div>
+            <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+            <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text"
+                    name="b_698108a30e3b767e58e99bab9_b53898d6ff" tabindex="-1" value=""></div>
+            <center>
+                <div class="optionalParent">
+
+                    <div class="clear foot">
+                        <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe"
+                            class="button">
+                    </div>
+
+                </div>
+            </center>
+        </div>
+    </form>
+</div>
+<script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
+<script
+    type='text/javascript'>(function ($) { window.fnames = new Array(); window.ftypes = new Array(); fnames[0] = 'EMAIL'; ftypes[0] = 'email'; fnames[1] = 'FNAME'; ftypes[1] = 'text'; fnames[2] = 'LNAME'; ftypes[2] = 'text'; fnames[3] = 'ADDRESS'; ftypes[3] = 'address'; fnames[4] = 'PHONE'; ftypes[4] = 'phone'; fnames[5] = 'BIRTHDAY'; ftypes[5] = 'birthday'; }(jQuery)); var $mcj = jQuery.noConflict(true);</script>
+<!--End mc_embed_signup-->
+            </div>
+        </div>
+    
+
+
+    <!--script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.10.0/components/prism-abap.min.js"></script-->
+    <!--
+    <script>$(document).ready(function() {
+      $('pre code').each(function(i, block) {
+        hljs.highlightBlock(block);
+      });
+    });</script>
+    -->
+
+    <!-- jQuery + Fitvids, which makes all video embeds responsive -->
+    <script
+        src="https://code.jquery.com/jquery-3.2.1.min.js"
+        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous">
+    </script>
+    <script type="text/javascript" src="/tech-projects-website/assets/js/jquery.fitvids.js"></script>
+    <!--
+    <script type="text/javascript" src="https://demo.ghost.io/assets/js/jquery.fitvids.js?v=724281a32e"></script>
+    -->
+
+    <!-- Paginator increased to "infinit" in _config.yml -->
+    <!-- if paginator.posts  -->
+    <!-- <script>
+        var maxPages = parseInt('');
+    </script>
+    <script src="/tech-projects-website/assets/js/infinitescroll.js"></script> -->
+    <!-- /endif -->
+
+    
+
+
+    <!-- Add Google Analytics  -->
+    <!-- Google Analytics Tracking code -->
+ <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-69281367-1', 'auto');
+  ga('send', 'pageview');
+
+ </script>
+
+
+    <!-- The #block helper will pull in data from the #contentFor other template files. In this case, there's some JavaScript which we only want to use in post.hbs, but it needs to be included down here, after jQuery has already loaded. -->
+    
+        <script>
+
+// NOTE: Scroll performance is poor in Safari
+// - this appears to be due to the events firing much more slowly in Safari.
+//   Dropping the scroll event and using only a raf loop results in smoother
+//   scrolling but continuous processing even when not scrolling
+$(document).ready(function () {
+    // Start fitVids
+    var $postContent = $(".post-full-content");
+    $postContent.fitVids();
+    // End fitVids
+
+    var progressBar = document.querySelector('progress');
+    var header = document.querySelector('.floating-header');
+    var title = document.querySelector('.post-full-title');
+
+    var lastScrollY = window.scrollY;
+    var lastWindowHeight = window.innerHeight;
+    var lastDocumentHeight = $(document).height();
+    var ticking = false;
+
+    function onScroll() {
+        lastScrollY = window.scrollY;
+        requestTick();
+    }
+
+    function onResize() {
+        lastWindowHeight = window.innerHeight;
+        lastDocumentHeight = $(document).height();
+        requestTick();
+    }
+
+    function requestTick() {
+        if (!ticking) {
+            requestAnimationFrame(update);
+        }
+        ticking = true;
+    }
+
+    function update() {
+        var trigger = title.getBoundingClientRect().top + window.scrollY;
+        var triggerOffset = title.offsetHeight + 35;
+        var progressMax = lastDocumentHeight - lastWindowHeight;
+
+        // show/hide floating header
+        if (lastScrollY >= trigger + triggerOffset) {
+            header.classList.add('floating-active');
+        } else {
+            header.classList.remove('floating-active');
+        }
+
+        progressBar.setAttribute('max', progressMax);
+        progressBar.setAttribute('value', lastScrollY);
+
+        ticking = false;
+    }
+
+    window.addEventListener('scroll', onScroll, {passive: true});
+    window.addEventListener('resize', onResize, false);
+
+    update();
+});
+</script>
+
+    
+
+    <!-- Ghost outputs important scripts and data with this tag - it should always be the very last thing before the closing body tag -->
+    <!-- ghost_foot -->
+
+</body>
+</html>

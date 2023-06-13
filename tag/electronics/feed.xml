@@ -1,0 +1,500 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom" >
+  <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
+  <link href="/tech-projects-website/tag/electronics/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="/tech-projects-website/" rel="alternate" type="text/html" />
+  <updated>2023-06-13T12:37:11+00:00</updated>
+  <id>/tech-projects-website/tag/electronics/feed.xml</id>
+
+  
+  
+  
+
+  
+    <title type="html">Technic Projects Blog | </title>
+  
+
+  
+    <subtitle>Technic Projects Blog</subtitle>
+  
+
+  
+
+  
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  
+
+  
+  
+
+  
+    <entry>
+      <title type="html">Jekyll Markdown Cheat Sheet</title>
+      <link href="/tech-projects-website/Jekyll-Cheat-Sheet" rel="alternate" type="text/html" title="Jekyll Markdown Cheat Sheet" />
+      <published>2022-03-30T06:00:00+00:00</published>
+      <updated>2022-03-30T06:00:00+00:00</updated>
+      <id>/tech-projects-website/Jekyll-Cheat-Sheet</id>
+      <content type="html" xml:base="/tech-projects-website/Jekyll-Cheat-Sheet">&lt;p&gt;This cheat sheet provides a quick overview of all the Markdown syntax elements that are supported by Jekyll.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-is-markdown&quot;&gt;What is Markdown?&lt;/h2&gt;
+
+&lt;p&gt;Markdown is a lightweight and easy-to-use markup language for web writers. Markdown allows you to add formatting elements to plaintext documents and then convert them to structurally valid HTML.&lt;/p&gt;
+
+&lt;p&gt;Markdown syntax can be divided into two broad categories. These categories are (1) basic syntax outlined in the original design document and (2) extension of basic syntax for added capability and features.&lt;/p&gt;
+
+&lt;p&gt;Refer to &lt;a href=&quot;https://www.markdownguide.org/cheat-sheet/&quot;&gt;Markdown cheat sheet&lt;/a&gt; for more examples.&lt;/p&gt;
+
+&lt;h2 id=&quot;basic-syntax&quot;&gt;Basic syntax&lt;/h2&gt;
+
+&lt;p&gt;These elements are defined in the original Markdown design document and can be used in all Markdown applications.&lt;/p&gt;
+
+&lt;p&gt;Detailed information and examples can be fount at &lt;a href=&quot;https://www.markdownguide.org/basic-syntax/&quot;&gt;basic syntax guide&lt;/a&gt;.&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;h3 id=&quot;headings&quot;&gt;Headings&lt;/h3&gt;
+
+&lt;h1 id=&quot;h1-headings&quot;&gt;H1 Headings&lt;/h1&gt;
+&lt;h2 id=&quot;h2-headings&quot;&gt;H2 Headings&lt;/h2&gt;
+&lt;h3 id=&quot;h3-headings&quot;&gt;H3 Headings&lt;/h3&gt;
+&lt;h4 id=&quot;h4-headings&quot;&gt;H4 Headings&lt;/h4&gt;
+&lt;h5 id=&quot;h5-headings&quot;&gt;H5 Headings&lt;/h5&gt;
+&lt;h6 id=&quot;h6-headings&quot;&gt;H6 Headings&lt;/h6&gt;
+
+&lt;div class=&quot;language-markdown highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;gh&quot;&gt;# H1&lt;/span&gt;
+&lt;span class=&quot;gu&quot;&gt;## H2&lt;/span&gt;
+&lt;span class=&quot;gu&quot;&gt;### H3&lt;/span&gt;
+&lt;span class=&quot;gu&quot;&gt;#### H4&lt;/span&gt;
+&lt;span class=&quot;gu&quot;&gt;##### H5&lt;/span&gt;
+&lt;span class=&quot;gu&quot;&gt;###### H6&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;hr /&gt;
+&lt;h3 id=&quot;paragraph&quot;&gt;Paragraph&lt;/h3&gt;
+
+&lt;p&gt;Here’s a paragraph.&lt;/p&gt;
+
+&lt;div class=&quot;language-markdown highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Here's a paragraph.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;hr /&gt;
+&lt;h3 id=&quot;line-break&quot;&gt;Line break&lt;/h3&gt;
+
+&lt;p&gt;Here’s another one&lt;br /&gt;
+with a line break.&lt;/p&gt;
+
+&lt;div class=&quot;language-markdown highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Here's another one  
+with a line break.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;hr /&gt;
+&lt;h3 id=&quot;bold&quot;&gt;Bold&lt;/h3&gt;
+
+&lt;p&gt;Lorem &lt;strong&gt;ipsum dolor&lt;/strong&gt; sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et &lt;strong&gt;dolore magna&lt;/strong&gt; aliqua.&lt;/p&gt;
+
+&lt;div class=&quot;language-markdown highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Lorem &lt;span class=&quot;gs&quot;&gt;**ipsum dolor**&lt;/span&gt; sit amet, consectetur adipiscing elit, 
+sed do eiusmod tempor incididunt ut labore et __dolore magna__ aliqua.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;hr /&gt;
+&lt;h3 id=&quot;italic&quot;&gt;Italic&lt;/h3&gt;
+
+&lt;p&gt;Lorem &lt;em&gt;ipsum dolor&lt;/em&gt; sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et &lt;em&gt;dolore magna&lt;/em&gt; aliqua.&lt;/p&gt;
+
+&lt;div class=&quot;language-markdown highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Lorem &lt;span class=&quot;ge&quot;&gt;*ipsum dolor*&lt;/span&gt; sit amet, consectetur adipiscing elit, 
+sed do eiusmod tempor incididunt ut labore et _dolore magna_ aliqua.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;hr /&gt;
+&lt;h3 id=&quot;highlight&quot;&gt;Highlight&lt;/h3&gt;
+
+&lt;p&gt;abcd &lt;mark&gt;Highlight&lt;/mark&gt; efgh&lt;/p&gt;
+
+&lt;div class=&quot;language-markdown highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;abcd &lt;span class=&quot;nt&quot;&gt;&amp;lt;mark&amp;gt;&lt;/span&gt;Highlight&lt;span class=&quot;nt&quot;&gt;&amp;lt;/mark&amp;gt;&lt;/span&gt; efgh
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;hr /&gt;
+&lt;h3 id=&quot;blockquote&quot;&gt;Blockquote&lt;/h3&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;blockquote text&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;div class=&quot;language-markdown highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;gt&quot;&gt;&amp;gt; blockquote text&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Blockquote&lt;/p&gt;
+  &lt;blockquote&gt;
+    &lt;p&gt;Nested Blockquote&lt;/p&gt;
+  &lt;/blockquote&gt;
+&lt;/blockquote&gt;
+
+&lt;div class=&quot;language-markdown highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;gt&quot;&gt;&amp;gt; Blockquote&lt;/span&gt;
+&lt;span class=&quot;gt&quot;&gt;&amp;gt;&amp;gt; Nested Blockquote&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;hr /&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Blockquote with horizontal lines&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;hr /&gt;
+
+&lt;div class=&quot;language-markdown highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nn&quot;&gt;---&lt;/span&gt;
+&lt;span class=&quot;pi&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;Blockquote&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;with&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;horizontal&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;lines&lt;/span&gt;
+
+&lt;span class=&quot;err&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;--&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;hr /&gt;
+&lt;h3 id=&quot;ordered-list&quot;&gt;Ordered list&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Item 1&lt;/li&gt;
+  &lt;li&gt;Item 2
+    &lt;ol&gt;
+      &lt;li&gt;Item 2a&lt;/li&gt;
+      &lt;li&gt;Item 2b&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Item 3&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;div class=&quot;language-markdown highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;1.&lt;/span&gt; Item 1
+&lt;span class=&quot;p&quot;&gt;1.&lt;/span&gt; Item 2
+&lt;span class=&quot;p&quot;&gt;    1.&lt;/span&gt; Item 2a
+&lt;span class=&quot;p&quot;&gt;    1.&lt;/span&gt; Item 2b
+&lt;span class=&quot;p&quot;&gt;1.&lt;/span&gt; Item 3
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;hr /&gt;
+&lt;h3 id=&quot;unordered-list&quot;&gt;Unordered list&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Item&lt;/li&gt;
+  &lt;li&gt;Item
+    &lt;ul&gt;
+      &lt;li&gt;Indented item&lt;/li&gt;
+      &lt;li&gt;Indented item&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Item&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-markdown highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;-&lt;/span&gt; Item
+&lt;span class=&quot;p&quot;&gt;-&lt;/span&gt; Item
+&lt;span class=&quot;p&quot;&gt;    -&lt;/span&gt; Indented item
+&lt;span class=&quot;p&quot;&gt;    -&lt;/span&gt; Indented item
+&lt;span class=&quot;p&quot;&gt;-&lt;/span&gt; Item
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;hr /&gt;
+&lt;h3 id=&quot;inline-code&quot;&gt;Inline code&lt;/h3&gt;
+
+&lt;p&gt;This is an inline &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;code&lt;/code&gt;.&lt;/p&gt;
+
+&lt;div class=&quot;language-markdown highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;This is an inline &lt;span class=&quot;sb&quot;&gt;`code`&lt;/span&gt;.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;hr /&gt;
+&lt;h3 id=&quot;horizontal-line&quot;&gt;Horizontal line&lt;/h3&gt;
+
+&lt;p&gt;Here’s some text.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Here’s more text.&lt;/p&gt;
+
+&lt;div class=&quot;language-markdown highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Here's some text.
+&lt;span class=&quot;p&quot;&gt;
+---
+&lt;/span&gt;
+Here's more text.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;hr /&gt;
+&lt;h3 id=&quot;link&quot;&gt;Link&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.example.com&quot;&gt;title&lt;/a&gt;&lt;/p&gt;
+
+&lt;div class=&quot;language-markdown highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;](&lt;/span&gt;&lt;span class=&quot;sx&quot;&gt;https://www.example.com&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;hr /&gt;
+&lt;h3 id=&quot;image&quot;&gt;Image&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/ghost.png&quot; alt=&quot;alt text&quot; /&gt;&lt;/p&gt;
+&lt;figcaption&gt;Caption goes here&lt;/figcaption&gt;
+
+&lt;div class=&quot;language-markdown highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;![&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;alt text&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;](&lt;/span&gt;&lt;span class=&quot;sx&quot;&gt;/assets/images/ghost.png&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;figcaption&amp;gt;&lt;/span&gt;Caption goes here&lt;span class=&quot;nt&quot;&gt;&amp;lt;/figcaption&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;extended-syntax&quot;&gt;Extended syntax&lt;/h2&gt;
+
+&lt;p&gt;These elements provide additional features by extending the basic syntax. Not all Markdown applications support these elements and each &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Markdown Flavor&lt;/code&gt; differs slightly.&lt;/p&gt;
+
+&lt;p&gt;Note that GitHub.com uses its own version of the Markdown syntax called &lt;a href=&quot;https://guides.github.com/features/mastering-markdown/#GitHub-flavored-markdown&quot;&gt;GitHub Flavored Markdown&lt;/a&gt; and some features are only available in the issues and pull requests.&lt;/p&gt;
+
+&lt;p&gt;Refer to &lt;a href=&quot;https://www.markdownguide.org/tools/jekyll/&quot;&gt;Jekyll Markdown coverage&lt;/a&gt; for a list of supported elements.&lt;/p&gt;
+
+&lt;p&gt;Detailed information and examples can be fount at &lt;a href=&quot;https://www.markdownguide.org/extended-syntax/&quot;&gt;extended syntax guide&lt;/a&gt;.&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;h3 id=&quot;table&quot;&gt;Table&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Syntax&lt;/th&gt;
+      &lt;th&gt;Description&lt;/th&gt;
+      &lt;th&gt;Link&lt;/th&gt;
+      &lt;th&gt;Image&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Header&lt;/td&gt;
+      &lt;td&gt;Title&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://www.amazon.de&quot;&gt;amazon.de&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;img src=&quot;/assets/images/amazon-icon.png&quot; alt=&quot;alt text&quot; /&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Paragraph&lt;/td&gt;
+      &lt;td&gt;Text&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://www.amazon.de&quot;&gt;amazon.de&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;img src=&quot;/assets/images/amazon-icon.png&quot; alt=&quot;alt text&quot; /&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;div class=&quot;language-markdown highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;| Syntax    | Description | Link                               | Image                                              |
+| --------- | ----------- | ---------------------------------- | -------------------------------------------------- |
+| Header    | Title       | &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;amazon.de&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;](&lt;/span&gt;&lt;span class=&quot;sx&quot;&gt;https://www.amazon.de&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; | !&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;alt text&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;](&lt;/span&gt;&lt;span class=&quot;sx&quot;&gt;/assets/images/amazon-icon.png&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;|
+| Paragraph | Text        | &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;amazon.de&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;](&lt;/span&gt;&lt;span class=&quot;sx&quot;&gt;https://www.amazon.de&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; | !&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;alt text&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;](&lt;/span&gt;&lt;span class=&quot;sx&quot;&gt;/assets/images/amazon-icon.png&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;|
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;hr /&gt;
+&lt;h3 id=&quot;code-block-no-highlighting&quot;&gt;Code block (no highlighting)&lt;/h3&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;{
+    &quot;firstName&quot;: &quot;John&quot;,
+    &quot;lastName&quot;: &quot;Doe&quot;,
+    &quot;age&quot;: 25
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;hr /&gt;
+&lt;h3 id=&quot;syntax-highlighting-eg-json&quot;&gt;Syntax highlighting (e.g. Json)&lt;/h3&gt;
+
+&lt;div class=&quot;language-json highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;&quot;firstName&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;John&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;&quot;lastName&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Doe&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;&quot;age&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;25&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;hr /&gt;
+&lt;h3 id=&quot;syntax-highlighting-eg-java&quot;&gt;Syntax highlighting (e.g. Java)&lt;/h3&gt;
+
+&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;HelloWorld&lt;/span&gt; 
+&lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;static&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;main&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;String&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[]&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;args&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;c1&quot;&gt;// Output &quot;Hello World!&quot;&lt;/span&gt;
+        &lt;span class=&quot;nc&quot;&gt;System&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;out&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;println&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Hello World!&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;hr /&gt;
+&lt;h3 id=&quot;footnote&quot;&gt;Footnote&lt;/h3&gt;
+
+&lt;p&gt;Here’s a sentence with a footnote reference. &lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Here's a sentence with a footnote reference. [^1]
+
+[^1]: This is the footnote.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;hr /&gt;
+&lt;h3 id=&quot;abbreviation&quot;&gt;Abbreviation&lt;/h3&gt;
+
+&lt;p&gt;The &lt;abbr title=&quot;Simple Mail Transfer Protocol&quot;&gt;SMTP&lt;/abbr&gt; is a communication protocol for email transmission.&lt;/p&gt;
+
+&lt;div class=&quot;language-markdown highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;err&quot;&gt;*&lt;/span&gt;[SMTP]: Simple Mail Transfer Protocol
+The SMTP is a communication protocol for email transmission.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;hr /&gt;
+&lt;h3 id=&quot;heading-id&quot;&gt;Heading ID&lt;/h3&gt;
+
+&lt;h3 id=&quot;custom-id&quot;&gt;Awesome Heading&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;#custom-id&quot;&gt;link-to-awesome-heading&lt;/a&gt;&lt;/p&gt;
+
+&lt;div class=&quot;language-markdown highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;gu&quot;&gt;### Awesome Heading {#custom-id}&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;link-to-awesome-heading&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;](&lt;/span&gt;&lt;span class=&quot;sx&quot;&gt;#custom-id&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;hr /&gt;
+&lt;h3 id=&quot;definition-list&quot;&gt;Definition list&lt;/h3&gt;
+
+&lt;p&gt;Not supported by Jekyll.&lt;/p&gt;
+
+&lt;dl&gt;
+  &lt;dt&gt;term&lt;/dt&gt;
+  &lt;dd&gt;definition&lt;/dd&gt;
+&lt;/dl&gt;
+
+&lt;div class=&quot;language-markdown highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;term
+: definition
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;hr /&gt;
+&lt;h3 id=&quot;strikethrough&quot;&gt;Strikethrough&lt;/h3&gt;
+
+&lt;p&gt;abcd &lt;del&gt;text&lt;/del&gt; efgh&lt;/p&gt;
+
+&lt;div class=&quot;language-markdown highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;abcd ~~text~~ efgh
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;hr /&gt;
+&lt;h3 id=&quot;task-list&quot;&gt;Task list&lt;/h3&gt;
+
+&lt;ul class=&quot;task-list&quot;&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;Read the Markdown guide&lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;Review the style guide&lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;Stay awesome!&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-markdown highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;-&lt;/span&gt; [x] Read the Markdown guide
+&lt;span class=&quot;p&quot;&gt;-&lt;/span&gt; [ ] Review the style guide
+&lt;span class=&quot;p&quot;&gt;-&lt;/span&gt; [ ] Stay awesome!
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;hr /&gt;
+&lt;h3 id=&quot;emoji-characters&quot;&gt;Emoji characters&lt;/h3&gt;
+
+&lt;p&gt;👍 🤓&lt;/p&gt;
+
+&lt;div class=&quot;language-markdown highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;👍 🤓
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;hr /&gt;
+&lt;h3 id=&quot;emoji-shortcodes&quot;&gt;Emoji shortcodes&lt;/h3&gt;
+
+&lt;p&gt;Not supported by Jekyll.&lt;/p&gt;
+
+&lt;p&gt;:rocket:&lt;/p&gt;
+
+&lt;div class=&quot;language-markdown highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;:rocket:
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;hr /&gt;
+&lt;h3 id=&quot;automatic-url-linking&quot;&gt;Automatic URL linking&lt;/h3&gt;
+
+&lt;p&gt;Not supported by Jekyll.&lt;/p&gt;
+
+&lt;p&gt;https://www.example.com&lt;/p&gt;
+
+&lt;div class=&quot;language-markdown highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;https://www.example.com
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;hr /&gt;
+&lt;h3 id=&quot;disabling-automatic-url-linking&quot;&gt;Disabling automatic URL linking&lt;/h3&gt;
+
+&lt;p&gt;Not supported by Jekyll.&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;https://www.example.com&lt;/code&gt;&lt;/p&gt;
+
+&lt;div class=&quot;language-markdown highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;sb&quot;&gt;`https://www.example.com`&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;hr /&gt;
+&lt;h3 id=&quot;html&quot;&gt;HTML&lt;/h3&gt;
+
+&lt;div&gt;
+    &lt;p&gt;HTML test paragraph.&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;p&amp;gt;&lt;/span&gt;HTML test paragraph.&lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;hr /&gt;
+&lt;h3 id=&quot;spacing&quot;&gt;Spacing&lt;/h3&gt;
+
+&lt;p&gt;Some Text here.&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;Some Text here.&lt;/p&gt;
+
+&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Some Text here.
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;p&amp;gt;&lt;/span&gt;&lt;span class=&quot;ni&quot;&gt;&amp;amp;nbsp;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
+Some Text here.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;hr /&gt;
+&lt;h2 id=&quot;further-reading&quot;&gt;Further reading&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.markdownguide.org/getting-started/&quot;&gt;The Markdown Guide&lt;/a&gt; provides a detailed overview of Markdown, how it works, and what can be done with it.&lt;/p&gt;
+
+&lt;p&gt;Hands on Markdown experience can be achieved by completing &lt;a href=&quot;https://www.markdowntutorial.com&quot;&gt;The Markdown Tutorial&lt;/a&gt; or simply experimenting with online editors such as &lt;a href=&quot;https://stackedit.io&quot;&gt;StackEdit&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;A collection of awesome markdown goodies (libraries, services, editors, tools, cheatsheets, etc.) can be found at &lt;a href=&quot;https://github.com/mundimark/awesome-markdown&quot;&gt;Awesome Markdown Repo&lt;/a&gt; on GitHub.&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;This is the footnote. &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Thorsten Schminkel</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="Getting started" />
+      
+        <category term="Electronics" />
+      
+
+      
+        <summary type="html">This cheat sheet provides a quick overview of all the Markdown syntax elements that are supported by Jekyll.</summary>
+      
+
+      
+      
+    </entry>
+  
+</feed>

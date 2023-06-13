@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom" >
+  <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
+  <link href="/tech-projects-website/tag/webdevelopment/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="/tech-projects-website/" rel="alternate" type="text/html" />
+  <updated>2023-06-13T12:37:11+00:00</updated>
+  <id>/tech-projects-website/tag/webdevelopment/feed.xml</id>
+
+  
+  
+  
+
+  
+    <title type="html">Technic Projects Blog | </title>
+  
+
+  
+    <subtitle>Technic Projects Blog</subtitle>
+  
+
+  
+
+  
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  
+
+  
+  
+
+  
+    <entry>
+      <title type="html">GitHub Pages with Custom Domain from Strato</title>
+      <link href="/tech-projects-website/github-pages-with-strato" rel="alternate" type="text/html" title="GitHub Pages with Custom Domain from Strato" />
+      <published>2022-04-04T06:00:00+00:00</published>
+      <updated>2022-04-04T06:00:00+00:00</updated>
+      <id>/tech-projects-website/github-pages-with-strato</id>
+      <content type="html" xml:base="/tech-projects-website/github-pages-with-strato">&lt;h1 id=&quot;how-to-get-github-pages-work-with-a-custom-domain-from-strato&quot;&gt;How to get GitHub Pages work with a custom domain from strato?&lt;/h1&gt;
+
+&lt;p&gt;When I was trying to configure the custom domain for my blog on GitHub I got stuck while setting it up via the Github Pages configuration. No error was show and the creation of SSL certificates displayed a progress that never finished. Finally I found a solution which is not straight forward that included additional steps on the domain provider side. The needed configuration may be specific for strato &lt;a href=&quot;http://www.strato.de&quot;&gt;(www.strato.de)&lt;/a&gt; but may vary/apply to other domain providers as well.&lt;/p&gt;
+
+&lt;h2 id=&quot;configuration-on-github&quot;&gt;Configuration on GitHub&lt;/h2&gt;
+&lt;p&gt;Go to the main page of your “GitHub Repository Project” –&amp;gt; “Settings” –&amp;gt; “Pages” and enter your custom domain (e.g. tech-projects.blog).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/github-pages-with-strato/2022-04-06_19-25-45.png&quot; alt=&quot;Configuration on GitHub 1&quot; /&gt;&lt;/p&gt;
+&lt;figcaption&gt;Settings Button on GitHub&lt;/figcaption&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/github-pages-with-strato/2022-04-06_19-36-07.png&quot; alt=&quot;Configuration on GitHub 2&quot; /&gt;&lt;/p&gt;
+&lt;figcaption&gt;GitHub Pages Configuration on GitHub&lt;/figcaption&gt;
+
+&lt;hr /&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;BUT, this will not work without the correct configuration on the domain provider side!&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;configuration-on-strato&quot;&gt;Configuration on Strato&lt;/h2&gt;
+
+&lt;h3 id=&quot;domain-configuration-eg-tech-projectsblog&quot;&gt;Domain configuration (e.g. tech-projects.blog)&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Configure the A-Record for your domain and add one of these IPs (IPv4).
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;185.199.108.153
+185.199.109.153
+185.199.110.153
+185.199.111.153
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Configure the AAAA-Record for your domain and add one of these IPs (IPv6).
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;2606:50c0:8000::153
+2606:50c0:8001::153
+2606:50c0:8002::153
+2606:50c0:8003::153
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;sub-domain-configuration-eg-wwwtech-projectsblog&quot;&gt;Sub-Domain configuration (e.g. www.tech-projects.blog)&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Add “www.” subdomain for your domain.&lt;/li&gt;
+  &lt;li&gt;Configure the A-Record and add an IP for the subdomain as for the domain.&lt;/li&gt;
+  &lt;li&gt;Configure the AAAA-Record and add an IP for the subdomain as for the domain.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Adding the “www.” subdomain with an A-Record IP will do the trick here!&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/github-pages-with-strato/2022-04-06_20-42-15.png&quot; alt=&quot;Domainverwaltung Strato&quot; /&gt;&lt;/p&gt;
+&lt;figcaption&gt;Domainverwaltung Strato&lt;/figcaption&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;h2 id=&quot;documentation-on-github&quot;&gt;Documentation on GitHub&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site&quot;&gt;Managing a custom domain for your GitHub Pages site&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;helpful-post&quot;&gt;Helpful post&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.community/t/certificate-request-error-is-persistent-tls-certificate-cant-be-provisioned/11008/16&quot;&gt;Certificate request error is persistent (TLS Certificate can’t be provisioned)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Thorsten Schminkel</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="Webdevelopment" />
+      
+
+      
+        <summary type="html">How to get GitHub Pages work with a custom domain from strato?</summary>
+      
+
+      
+      
+    </entry>
+  
+</feed>

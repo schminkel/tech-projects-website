@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom" >
+  <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
+  <link href="/tech-projects-website/tag/electronic/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="/tech-projects-website/" rel="alternate" type="text/html" />
+  <updated>2023-06-13T12:37:11+00:00</updated>
+  <id>/tech-projects-website/tag/electronic/feed.xml</id>
+
+  
+  
+  
+
+  
+    <title type="html">Technic Projects Blog | </title>
+  
+
+  
+    <subtitle>Technic Projects Blog</subtitle>
+  
+
+  
+
+  
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  
+
+  
+  
+
+  
+    <entry>
+      <title type="html">Temperature sensors with display and alerting for marine aquarium [draft, in progress]</title>
+      <link href="/tech-projects-website/esp8266-temperature-monitoring" rel="alternate" type="text/html" title="Temperature sensors with display and alerting for marine aquarium [draft, in progress]" />
+      <published>2022-05-01T06:00:00+00:00</published>
+      <updated>2022-05-01T06:00:00+00:00</updated>
+      <id>/tech-projects-website/esp8266-temperature-monitoring</id>
+      <content type="html" xml:base="/tech-projects-website/esp8266-temperature-monitoring">&lt;p&gt;In marine fishkeeping the water temperature belongs to the important and easy to monitor water parameters that can be monitored electronically very easy. The temperature is strongly dependent on the room temperature and influenced by other equipment like UV-C clearer and lighting in particular if the LEDs are sitting close to the water surface. Inappropriate water temperature, meaning out of the rage of 23 to 28 °C can lead to damage or even death of the fishes and the corals.&lt;/p&gt;
+
+&lt;p&gt;In order to monitor the temperature I build a small device with two temperature sensors that will constantly monitor the temperature at two different places in the aquarium. You don’t need your mobile all the time, the values can be checked at the display of the device and if the temperature leaves a defined range of 24-27 °C you get notified. The device has got a physical notification. That means a buzzer starts beeping and you can pause the notification by pressing the snooze button for defined period of time.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/esp8266-temperature-monitoring/temperature-case-open.jpeg&quot; alt=&quot;Temperature Sensor Case Open&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Now lets have a look at the list of part I used:&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt; ## &lt;/th&gt;
+      &lt;th&gt;Parts&lt;/th&gt;
+      &lt;th&gt;Amazon.de&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;1&lt;/td&gt;
+      &lt;td&gt;1 x D1 Mini D1 Mini V3 NodeMCU ESP8266EX&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://amzn.to/3uMy4G6&quot;&gt;Amazon-Link&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2&lt;/td&gt;
+      &lt;td&gt;1 x OLED display shield I2C SSD1306&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://amzn.to/3oMWyew&quot;&gt;Amazon-Link&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;3&lt;/td&gt;
+      &lt;td&gt;2 x Temperature Sensor - 3M Kabel DS18B20&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://amzn.to/3oJizKU&quot;&gt;Amazon-Link&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;4&lt;/td&gt;
+      &lt;td&gt;1 x Box, Electronic Enclosure, Waterproof (89 x 59 x 35mm)&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://amzn.to/3oLFntx&quot;&gt;Amazon-Link&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;5&lt;/td&gt;
+      &lt;td&gt;1 x Round Acryl Sheets, 2 Zoll/ 5 cm&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://amzn.to/3JpBNgF&quot;&gt;Amazon-Link&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;6&lt;/td&gt;
+      &lt;td&gt;1 x UHU 45440 Superglue&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://amzn.to/3oRBx22&quot;&gt;Amazon-Link&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;7&lt;/td&gt;
+      &lt;td&gt;1 x M12 Cable Fitting&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://amzn.to/3uSa44f&quot;&gt;Amazon-Link&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;8&lt;/td&gt;
+      &lt;td&gt;1 x KY-012 Piezo Buzzer Alarm&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://amzn.to/3Jxmz9E&quot;&gt;Amazon-Link&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;9&lt;/td&gt;
+      &lt;td&gt;1 x Resistor 470Ω from Resistor Kit&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://amzn.to/34JodGj&quot;&gt;Amazon-Link&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;10&lt;/td&gt;
+      &lt;td&gt;1 x Resistor 10kΩ from Resistor Kit&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://amzn.to/34JodGj&quot;&gt;Amazon-Link&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;11&lt;/td&gt;
+      &lt;td&gt;1 x PCB 7x3cm shortened from Universal Board Kit&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://amzn.to/3GPJkDW&quot;&gt;Amazon-Link&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;12&lt;/td&gt;
+      &lt;td&gt;3 x Screw Terminals from Universal Board Kit&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://amzn.to/3GPJkDW&quot;&gt;Amazon-Link&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;13&lt;/td&gt;
+      &lt;td&gt;1 x Tactile Push Button 9,5mm from Button Kit&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://amzn.to/3pcEKtx&quot;&gt;Amazon-Link&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;14&lt;/td&gt;
+      &lt;td&gt;1 x Micro Cable Electronics Male/Female Connector&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://amzn.to/36hvU72&quot;&gt;Amazon-Link&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;15&lt;/td&gt;
+      &lt;td&gt;1 x Universal Power Supply 5V&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://amzn.to/3rPPTBU&quot;&gt;Amazon-Link&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/esp8266-temperature-monitoring/temperature-monitor-fritzing.png&quot; alt=&quot;Temperatur Monitor Electronic Circuit&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;source-code&quot;&gt;Source Code&lt;/h2&gt;
+
+&lt;p&gt;The source code of the PlatformIO project can be found on Github:
+&lt;a href=&quot;https://github.com/schminkel/ESP8266TemperatureMonitoring&quot;&gt;Github - ESP8266TemperatureMonitoring&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;notizen&quot;&gt;NOTIZEN&lt;/h2&gt;
+
+&lt;p&gt;In der Meerwasseraquaristik gehört die Wassertemperatur sicherlich zu den wichtigen und sehr einfach auch elektronisch messbaren Wasserparametern. Zur Überwachung möchte ich daher ein kleines, autarkes Gerät bauen, das die Temperatur dauerhaft überwacht und bei Über- und Unterschreitung von Schwellwerten informiert. Zusätzlich sollen aktuelle Werte auch am Gerät ablesbar sein, wobei auch deren Aktualität (Zeitstempel) nachvollziehbar sein muss. Eine Integration in die Hausautomatisierung bietet zusätzlich die Möglichkeit der Kontrolle von Remote als auch grafische Auswertungen und Trendanalysen. Los gehts!&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Warum ist die Temperatur im Meerwasseraquarium so wichtig, kurze 2-3 Sätze zur Einleitung&lt;/li&gt;
+  &lt;li&gt;standalone Gerät&lt;/li&gt;
+  &lt;li&gt;geschlossenes Gehäuse wg. Salzwasser&lt;/li&gt;
+  &lt;li&gt;wartungsfrei daher Netzteil&lt;/li&gt;
+  &lt;li&gt;remote Kontrolle daher mqtt auf Homematic (welcher Broker?)&lt;/li&gt;
+  &lt;li&gt;Aufzeichnung (mqtt nach Influx-DB) via Influx-DB und Auswertung via Grafana, zeitliche Überwachung wichtig, weil ansonsten keinen Überblick bei Überschreitung&lt;/li&gt;
+  &lt;li&gt;Benachrichtigung bei Überschreitung (auch Unterschreitung) mittels Pushover (alle 10 Minuten eine Nachricht) + Flashing Display (invert, true, false) bei 28 Grad Celsius. Erklären warum 28 Grad so wichtig ist.&lt;/li&gt;
+  &lt;li&gt;Sprich ab 28 Grad verlassen wir den optimalen Bereich, ab 29,5 Grad wird es hingegen kritisch!!!&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;anforderungen&quot;&gt;Anforderungen&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;2 Temperaturfühler zum dauerhaften messen der  Wassertemperatur im Meerwasseraquarium.&lt;/li&gt;
+  &lt;li&gt;Anzeige der Temperaturwerte auf einem Display, um eine direkte Prüfung der Werte zu ermöglichen.&lt;/li&gt;
+  &lt;li&gt;Benachrichtigung aufs Handy bei Überschreitung eines Schwellwerts von 28 Grad, ggf. ohne HM&lt;/li&gt;
+  &lt;li&gt;Weitere Anzeige von Datum und Zeit sowie IP-Adresse.&lt;/li&gt;
+  &lt;li&gt;Übermittlung der Temperaturwerte an eine HomeMatic Zentrale via MQTT.&lt;/li&gt;
+  &lt;li&gt;Stromversorgung via Netzteil, wartungsfrei ohne Batterien.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;bau-des-geräts&quot;&gt;Bau des Geräts&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Bestückung der Platine —&amp;gt; Fritzing Schaltplan erstellen und darstellen&lt;/li&gt;
+  &lt;li&gt;Bohrungen im Gehäuse vornehmen (welches Bohrset, Link!)&lt;/li&gt;
+  &lt;li&gt;Acrylglas aufkleben, von hinten (auf Stückliste nehmen)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;anzeige-folgender-daten-auf-einem-oled-64x48-pixel-zeilenweise&quot;&gt;Anzeige folgender Daten auf einem OLED 64x48 Pixel (zeilenweise)&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Anzeige der Temperatur von Sensor 1. z.B. „1: 23.00 C“&lt;/li&gt;
+  &lt;li&gt;Anzeige der Temperatur von Sensor 2. z.B. „2: 24.00 C“&lt;/li&gt;
+  &lt;li&gt;Anzeige Update Zeit. z.B. „30.11.2021 12:05:59“ (2 Zeilen)&lt;/li&gt;
+  &lt;li&gt;IP Adresse des Sensors. z.B. x.x.x.123&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;mqtt-publish-von-folgenden-daten&quot;&gt;MQTT publish von folgenden Daten&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;/data/aquarium/temp/1 = 23,00 C&lt;/li&gt;
+  &lt;li&gt;/data/aquarium/temp/2 = 23,00 C&lt;/li&gt;
+  &lt;li&gt;/data/aquarium/temp/updated = 2021-12-01 12:05:59&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;arduino-environment&quot;&gt;Arduino Environment&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Arduino IDE z.B. Version 1.8.16 installieren&lt;/li&gt;
+  &lt;li&gt;Board Manager URLs eintragen und D1 mini Board installieren&lt;/li&gt;
+  &lt;li&gt;„esp8266“ Board suchen  und installieren&lt;/li&gt;
+  &lt;li&gt;Blink Example Sketch testen&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;stückliste&quot;&gt;Stückliste&lt;/h2&gt;
+
+&lt;p&gt;Gehäuse - wasserdicht &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;89 * 59 * 35mm&lt;/code&gt; (Waterproof Junction Box @amazon)
+Acrylplatte rund - Durchmesser 2 Zoll, d.h. 5cm (Klare Acrylplatte rund @amazon)
+ESP8266EX - AZDelivery D1 Mini V3 NodeMCU (AZDelivery D1 Mini V3 ESP8266EX @amazon)
+OLED Display - AZDelivery 0,66 Zoll Shield D1 Mini 64X48 (AZDelivery 0,66 Zoll OLED Display @amazon)
+Temperatursensoren DS18B20 - AZDelivery 2 x 3M Kabel wasserdicht (AZDelivery DS18B20 @amazon)&lt;/p&gt;
+
+&lt;h2 id=&quot;weitere-quellen&quot;&gt;Weitere Quellen&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;ESPDateTime (NTP Server Library)
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/mcxiaoke/ESPDateTime&quot;&gt;https://github.com/mcxiaoke/ESPDateTime&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;ESP Board Manager URLs
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;http://arduino.esp8266.com/stable/package_esp8266com_index.json&quot;&gt;http://arduino.esp8266.com/stable/package_esp8266com_index.json&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://dl.espressif.com/dl/package_esp32_index.json&quot;&gt;https://dl.espressif.com/dl/package_esp32_index.json&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Wolles Elektronikkiste - Wemos D1 Mini Boards
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://wolles-elektronikkiste.de/wemos-d1-mini-boards&quot;&gt;https://wolles-elektronikkiste.de/wemos-d1-mini-boards&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Thorsten Schminkel</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="ELECTRONIC" />
+      
+        <category term="ESP8266" />
+      
+        <category term="MARINE-AQUARIUM" />
+      
+
+      
+        <summary type="html">In marine fishkeeping the water temperature belongs to the important and easy to monitor water parameters that can be monitored electronically very easy. The temperature is strongly dependent on the room temperature and influenced by other equipment like UV-C clearer and lighting in particular if the LEDs are sitting close to the water surface. Inappropriate water temperature, meaning out of the rage of 23 to 28 °C can lead to damage or even death of the fishes and the corals.</summary>
+      
+
+      
+      
+    </entry>
+  
+</feed>
